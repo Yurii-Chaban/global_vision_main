@@ -471,6 +471,7 @@
 	.services-section {
 		padding: 26px 0 29px;
 		background: #fff;
+	    border-bottom: 4px solid #f8f8f8;
 
 		.services-content-list {
 			display: block !important;
@@ -586,4 +587,73 @@
 		    z-index: 999;
 		}
 	}
+	/*---------------------------------------*/
+.services-page {
+    overflow: hidden;
+	.portfolio-content {
+		.portfolio-title {
+			display: block !important;
+		}
+	}
+	.services-page-list {
+		li {
+			clear: both;
+			box-sizing: border-box;
+			
+			.web-bg,
+			.marketing-bg,
+			.software-bg,
+			.design-bg {
+				width: 50% !important;
+				min-height: 251px !important;
+				background-size: cover !important;
+				background-position: center center !important;
+			}
+
+			.web-bg ,
+			.software-bg {
+				float: left;
+			}
+			.marketing-bg,
+			.design-bg {
+				float: right;
+			}
+			/*-----*/
+			.web-text,
+			.software-text {
+				float: right;
+			    padding: 75px 0 90px 0 !important;
+			    text-align: left !important;
+			}
+			.marketing-text,
+			.design-text {
+				float: left;
+			    padding: 82px 0 83px 0 !important;
+			    text-align: left !important;
+
+			    .float-block {
+			    	float: right;
+			    	margin-right: 48px;
+			    }
+			}
+			/*------------*/
+			.web-text,
+			.marketing-text,
+			.software-text,
+			.design-text {
+				width: 50% !important;
+				height: 100% !important;
+
+				.serv-title,
+				.sign-title {
+					margin-left: 12px !important;
+				}
+				.serv-title {
+					width: auto !important;
+				}
+			}
+		}
+	}
+}
+/*---------------------------------------*/
 }
