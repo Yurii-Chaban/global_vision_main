@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="stylesheets/main_styles.css">
 </head>
 <body>
-	<header>
+	<header class="inside-page-header">
 		<div class="wrapper">
 			<div class="dropdovn-menu-mobile">
 	            <input type="checkbox" id="hmt" class="hidden-menu-ticker">
@@ -49,13 +49,30 @@
 	                </li>
 	            </ul>
 	        </div>
-	        <div class="dropdovn-menu-desctop">
+	        <div class="dropdovn-menu-desctop dropdovn-menu-desctop-black">
 		        <div class="burger">
 		        	<span class="first"></span>
 					  <span class="second"></span>
 					  <span class="third"></span>
 		        </div>
 				<ul class="dropdown-content">
+	                <li>
+	                	<a href="Global_vision_main.html">Home</a>
+	                </li>
+	                <li>
+	                	<a href="#">About Us</a>
+	                </li>
+	                <li>
+	                	<a href="#">Services</a>
+	                </li>
+	                <li>
+	                	<a href="#">Portfolio</a>
+	                </li>
+	                <li>
+	                	<a href="Global_vision_contact_us_var_2.html">Contact Us</a>
+	                </li>
+	            </ul>
+	            <ul class="dropdown-content-black">
 	                <li>
 	                	<a href="Global_vision_main.html">Home</a>
 	                </li>
@@ -87,131 +104,124 @@
 	        		<img src="images/logo.png" alt="Global Vision">
 	        	</a>
 	        </h1>
+	        <h1 class="logo-inside">
+	        	<a href="Global_vision_main.html">
+	        		<img src="images/logo_black.png" alt="Global Vision">
+	        	</a>
+	        </h1>
         </div>
 	</header>
-	<section class="slider">
-	<div class="grid"></div>
-	<video id="main-video" autoplay loop>
-	   <source src="video/LODKA.mp4" type="video/mp4">
-	</video>
-	 <!-- cd-intro -->
-	<div class="cd-intro">
-		<h1 class="cd-headline zoom">
-			<span></span>
-			<span class="cd-words-wrapper">
-				<b class="is-visible">we <span class="sign">create</span> awesome projects</b>
-				<b>WE DO A BLEND OF <span class="sign">ART</span> AND <span class="sign">SCIENCE</span></b>
-				<b>WE <span class="sign">LOVE</span> DESIGN</b>
-			</span>
-			<span class="item-sign">since 2005</span>
-			<h4 class="company-services">website development   •    internet markeing   •   software development graphic design and advertisment</h4>
-			<a class="do-button" href="#">what we do</a>
-		</h1>
-	</div>
-	</section>
-	<section class="site-container belive-text">
+	<section class="direction">
 		<div class="wrapper">
-			<h2 class="belive-content">We believe our works speak for themselves</h2>
+			<a class="arrow-back" href="#">
+				<img src="images/arrow.png" alt="arrow back">
+			</a>
+			<h3 class="direction-title">
+				<a href="javascript:history.back()">contact Us</a>
+			</h3>
 		</div>
 	</section>
-	<section class="site-container photo-web">
-		<div class="block-container">
-			<div class="wrapper">
-				<h2 class="services-title">web</h2>
-				<ul class="web-list">
-					<li>
-						<h3>Web Development</h3>
-						<h4>We develop stunning and effective websites of all complexities</h4>
-					</li>
-					<li>
-						<h3>Website Support</h3>
-						<h4>Provide professional content, add new features 24/7 technical support</h4>
-					</li>
-					<li>
-						<h3>Ready Solutions</h3>
-						<h4>We have iBusinesscard and Ready Shop for you</h4>
-					</li>
-				</ul>
-			</div>
+	<section class="site-container services-section">
+		<div class="wrapper">
+			<ul class="services-content-list">
+				<li>
+					<ul class="services-web">
+						<li class="web-title">web</li>
+						<li>
+							<a href="#">Web Development</a>
+						</li>
+						<li>
+							<a href="#">Web Support</a>
+						</li>
+						<li>
+							<a href="#">Ready-to-Go Websites</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="services-marketing">
+						<li class="marketing-title">marketing</li>
+						<li>
+							<a href="#">Internet Marketing Consulting</a>
+						</li>
+						<li>
+							<a href="#">Search Engine Optimization (SEO) </a>
+						</li>
+						<li>
+							<a href="#">Pay-Per Click Marketing</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="services-software">
+						<li class="software-title">software</li>
+						<li>
+							<a href="#">Software Development</a>
+						</li>
+						<li>
+							<a href="#">Alternative Solutions</a>
+						</li>
+						<li>
+							<a href="#">IT Outsorsing</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="services-design">
+						<li class="design-title">design</li>
+						<li>
+							<a href="#">Graphic Design</a>
+						</li>
+						<li>
+							<a href="#">Corporate Identity</a>
+						</li>
+						<li>
+							<a href="#">Photography</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</section>
-	<section class="site-container photo-marketing">
-		<div class="block-container">
+	<section class="site-container contact-page">
+		<div class="contact-absolute">
 			<div class="wrapper">
-				<h2 class="services-title">marketing</h2>
-				<ul class="marketing-list">
-					<li>
-						<h3>Internet Marketing Consulting</h3>
-						<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</h4>
-					</li>
-					<li>
-						<h3>Search Engine Optimization </h3>
-						<h4>Leverage our to optimize your organization’s IT functionality</h4>
-					</li>
-					<li>
-						<h3>Google AdWord </h3>
-						<h4>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum</h4>
-					</li>
-				</ul>
+				<h2 class="contact-title">contact <span>us</span></h2>
+				<p class="contact-description">As an international organization, Global Vision maintains a network of offices around the world. No matter where you’re located, we have a convenient regional office in your area to serve your needs. Our qualified managers are ready to assist you at any time. To get started, please choose the most appropriate regional office below. We look forward to hearing from you!</p>
+				<dl class="contact-page-info">
+					<dt>Phone:</dt>
+					<dd>
+						<img src="images/icon-1-phone.png" alt="icon-1-phone">
+						<span>+1 (872) 444-0222</span>
+					</dd>
+					<dt>Address:</dt>
+					<dd>
+						<img src="images/icon-2-address.png" alt="icon-2-address">
+						<span>1040 S Milwaukee Ave, Ste 100 Wheeling, IL 60090</span>
+					</dd>
+				</dl>
 			</div>
+		</div>
+		<div class="mapWrapper">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959.4017770770747!2d-87.8988727849451!3d42.1202812792038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb921ad34b54d%3A0xf45469deb2611c57!2s1040+S+Milwaukee+Ave+%23100%2C+Wheeling%2C+IL+60090!5e0!3m2!1suk!2s!4v1467709137995" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="contact-absolute-inside">
+				<div class="wrapper">
+					<h2 class="contact-title">contact <span>us</span></h2>
+					<p class="contact-description">As an international organization, Global Vision maintains a network of offices around the world. No matter where you’re located, we have a convenient regional office in your area to serve your needs. Our qualified managers are ready to assist you at any time. To get started, please choose the most appropriate regional office below. We look forward to hearing from you!</p>
+					<dl class="contact-page-info">
+						<dt>Phone:</dt>
+						<dd>
+							<img src="images/icon-1-phone.png" alt="icon-1-phone">
+							<span>+1 (872) 444-0222</span>
+						</dd>
+						<dt>Address:</dt>
+						<dd>
+							<img src="images/icon-2-address.png" alt="icon-2-address">
+							<span>1040 S Milwaukee Ave, Ste 100 Wheeling, IL 60090</span>
+						</dd>
+					</dl>
+				</div>
 			</div>
-	</section>
-	<section class="site-container photo-design">
-		<div class="block-container">
-			<div class="wrapper">
-				<h2 class="services-title">design</h2>
-				<ul class="design-list">
-					<li>
-						<h3>Graphic Design</h3>
-						<h4>We believe that design, which effectively drives business goals, typically resides at the intersection of aesthetics and content</h4>
-					</li>
-					<li>
-						<h3>Corporate Identity</h3>
-						<h4>Our  skills focus on branding, consistently delivering results for our clients</h4>
-					</li>
-					<li>
-						<h3>Printed Products</h3>
-						<h4>We focused on helping organizations achieve business goals and be the best they can be</h4>
-					</li>
-					<li>
-						<h3>Photography</h3>
-						<h4>We continuously finding the way to show great quality pictures which must have  purpose</h4>
-					</li>
-				</ul>
-			</div>
-			</div>
-	</section>
-	<section class="site-container photo-software">
-		<div class="block-container">
-			<div class="wrapper">
-				<h2 class="services-title">software</h2>
-				<ul class="software-list">
-					<li>
-						<h3>Software Development</h3>
-						<h4>Affordable custom software for allapplications and levels of complexity</h4>
-					</li>
-					<li>
-						<h3>IT Outsorsing</h3>
-						<h4>Leverage our to optimize your organization’s IT functionality</h4>
-					</li>
-					<li>
-						<h3>Embedded Software</h3>
-						<h4>Transform any devices or electronic product into a "smart" device</h4>
-					</li>
-					<li>
-						<h3>Alternative Solutions</h3>
-						<h4>Breathe new life into old, or even obsolete, programs and platforms</h4>
-					</li>
-				</ul>
-			</div>
-			</div>
-	</section>
-	<section class="site-container who-we-are">
-		<div class="wrapper">
-			<h2 class="who-title">
-				Who<span> we are</span>
-			</h2>
-			<p class="who-description">Global Visions opened its doors in 2005. Over nearly a decade, we have had the privilege of successfully implementing hundreds of projects with a focus on Website Development, Software Development, and Design/Advertising. Today, dozens of organizations throughout the world use our custom designs and software solutions. We take pride in exceeding our clients’ expectations for each project we complete. If you’re looking for a reliable and affordable partner to help you realize your vision through innovative design and technology, please fill out our Quote Request below. One of our expert representatives will be in touch with you promptly to discuss your project.</p>
 		</div>
 	</section>
 	<footer class="site-container">
@@ -347,6 +357,18 @@
 	            var result = location.match(link);
 	            if(result) {
 	            $(this).addClass('active-services');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.dropdown-content-black li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('black-active');
 	            }
 	        });
 	    });
