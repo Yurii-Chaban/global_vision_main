@@ -132,7 +132,7 @@ body {
     text-transform: uppercase;
 }
 .wrapper {
-	max-width: 985px;
+	max-width: 1010px;
 	margin: 0 auto;
 	padding: 0 15px;
 	box-sizing: border-box;
@@ -747,12 +747,14 @@ footer {
 		display: none;
 	}
 }
-.contact-page {
+.contact-page,
+.about-us-page {
 	@include site-container;
 	position: relative;
 
 	.contact-absolute,
-	.contact-absolute-inside {
+	.contact-absolute-inside,
+	.about-us-absolute {
 		width: 100%;
 		height: auto;
 		box-sizing: border-box;
@@ -775,6 +777,25 @@ footer {
 			font-size: 18px;
 			font-weight: 400;
 			line-height: 25px;
+		}
+		.about-us-title {
+			margin: 0 auto;
+			text-align: center;
+			color: #f37835;
+			font-size: 22px;
+			line-height: 30px;
+			text-transform: uppercase;
+			font-weight: 400;
+
+			span {
+				font-weight: 700;
+			}
+		}
+		.about-us-descritpion {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 25px;
+			color: #5d5d5d;
 		}
 		.contact-page-info {
 			margin-bottom: 63px;
@@ -804,6 +825,19 @@ footer {
 			}
 		}
 	}
+	.about-desctop {
+		@include site-container;
+		min-height: 174px;
+		margin-top: 17px;
+		background: url('../images/about-us-bg.png') no-repeat;
+		background-size: cover;
+		background-position: left center;
+	
+		.about-us-absolute-desctop {
+			display: none;		
+		}
+	}
+	
 
 	.mapWrapper {
 		@include mapWrapper;
@@ -811,6 +845,52 @@ footer {
 		// height: 176px !important;
 		.gm-style .place-card-large {
 		    display: none !important;
+		}
+	}
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+.about-us-page {
+	@include site-container;
+	position: relative;
+
+	.about-us-absolute {
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		background: rgba(248,248,248, 0.9);
+
+		.about-us-title {
+			margin: 22px auto 20px;
+			text-align: center;
+			color: #f37835;
+			font-size: 22px;
+			line-height: 30px;
+			text-transform: uppercase;
+			font-weight: 400;
+
+			span {
+				font-weight: 700;
+			}
+		}
+		.about-us-description {
+			margin: 0 auto 22px;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 25px;
+			color: #5d5d5d;
+		}
+	}
+	.about-desctop {
+		@include site-container;
+		min-height: 174px;
+		margin-top: 17px;
+		background: url('../images/about-us-bg.png') no-repeat;
+		background-size: cover;
+		background-position: left center;
+	
+		.about-us-absolute-desctop {
+			display: none;		
 		}
 	}
 }
@@ -905,6 +985,7 @@ footer {
 					line-height: 48px;
 					text-transform: uppercase;
 					text-decoration: none;
+					@include transition;
 
 					&:hover {
 						border-color: #fff;

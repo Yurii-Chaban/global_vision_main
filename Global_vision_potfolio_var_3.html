@@ -36,7 +36,7 @@
 	                	<a href="Global_vision_main.html">Home</a>
 	                </li>
 	                <li>
-	                	<a href="#">About Us</a>
+	                	<a href="Global_vision_about_us.html">About Us</a>
 	                </li>
 	                <li>
 	                	<a href="Global_vision_potfolio_var_3.html">Services</a>
@@ -60,7 +60,7 @@
 	                	<a href="Global_vision_main.html">Home</a>
 	                </li>
 	                <li>
-	                	<a href="#">About Us</a>
+	                	<a href="Global_vision_about_us.html">About Us</a>
 	                </li>
 	                <li>
 	                	<a href="Global_vision_potfolio_var_3.html">Services</a>
@@ -277,6 +277,25 @@
 			<div class="wrapper">
 				<ul class="desctop-footer-list">
 					<li>
+						<ul class="footer-menu">
+			                <li>
+			                	<a href="Global_vision_main.html">Home</a>
+			                </li>
+			                <li>
+			                	<a href="Global_vision_about_us.html">About Us</a>
+			                </li>
+			                <li>
+			                	<a href="#">Portfolio</a>
+			                </li>
+			                <li>
+			                	<a href="Global_vision_potfolio_var_3.html">Blog</a>
+			                </li>
+			                <li>
+			                	<a href="#">Reviews</a>
+			                </li>
+			            </ul>
+					</li>
+					<li>
 						<ul class="services-list">
 							<li>
 								<a href="#">Web Development</a>
@@ -358,6 +377,18 @@
 	            var result = location.match(link);
 	            if(result) {
 	            $(this).addClass('dropdown-active');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.footer-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-footer');
 	            }
 	        });
 	    });
