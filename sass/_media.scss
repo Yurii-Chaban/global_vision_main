@@ -492,7 +492,7 @@
 	.services-section {
 		padding: 26px 0 29px;
 		background: #fff;
-	    border-bottom: 4px solid #f8f8f8;
+	    // border-bottom: 4px solid #f8f8f8;
 
 		.services-content-list {
 			display: block !important;
@@ -672,6 +672,8 @@
 .services-page {
     overflow: hidden;
 	.portfolio-content {
+		background: #fff !important;
+		border-top: 4px solid #f8f8f8;
 		.portfolio-title {
 			display: block !important;
 		}
