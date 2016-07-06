@@ -1375,25 +1375,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     overflow: hidden;
   }
   /* line 1085, ../sass/_media.scss */
-  .testimonials-page .testimonials-page-list-mobile {
+  .testimonials-page .testimonials-page-list-mobile,
+  .testimonials-page .page-pagination-mobile {
     display: none !important;
   }
-  /* line 1089, ../sass/_media.scss */
+  /* line 1090, ../sass/_media.scss */
   .testimonials-page .testimonials-content {
     display: block !important;
     background: #fff !important;
     border-top: 4px solid #f8f8f8;
   }
-  /* line 1093, ../sass/_media.scss */
+  /* line 1094, ../sass/_media.scss */
   .testimonials-page .testimonials-content .testimonials-title {
     display: block !important;
     margin: 0 auto 20px !important;
   }
-  /* line 1098, ../sass/_media.scss */
+  /* line 1099, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop {
     display: block !important;
   }
-  /* line 1100, ../sass/_media.scss */
+  /* line 1101, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li {
     position: relative;
     display: block;
@@ -1403,7 +1404,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     /*-----*/
     /*------------*/
   }
-  /* line 1107, ../sass/_media.scss */
+  /* line 1108, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .right-block,
   .testimonials-page .testimonials-page-list-desctop li .left-block {
     position: absolute;
@@ -1414,7 +1415,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     overflow: hidden;
     background: rgba(248, 248, 248, 0.9);
   }
-  /* line 1117, ../sass/_media.scss */
+  /* line 1118, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .right-block .position-content,
   .testimonials-page .testimonials-page-list-desctop li .left-block .position-content {
     max-width: 510px;
@@ -1423,30 +1424,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     overflow: hidden;
     padding: 0 55px;
   }
-  /* line 1124, ../sass/_media.scss */
+  /* line 1125, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .right-block .position-content-float,
   .testimonials-page .testimonials-page-list-desctop li .left-block .position-content-float {
     float: right !important;
     margin-right: 20px;
     padding-left: 5px;
   }
-  /* line 1130, ../sass/_media.scss */
+  /* line 1131, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .right-block {
     right: 0;
   }
-  /* line 1133, ../sass/_media.scss */
+  /* line 1134, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .left-block {
     left: 0;
   }
-  /* line 1136, ../sass/_media.scss */
+  /* line 1137, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .left-block .article-title {
     margin: 16px 0 0 40px;
   }
-  /* line 1139, ../sass/_media.scss */
+  /* line 1140, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .left-block .article-date {
     margin: 0 0 18px 40px;
   }
-  /* line 1143, ../sass/_media.scss */
+  /* line 1144, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .left-block .article-content {
     position: relative;
     width: 398px !important;
@@ -1457,7 +1458,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #5d5d5d;
     text-align: justify;
   }
-  /* line 1155, ../sass/_media.scss */
+  /* line 1156, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .first-article,
   .testimonials-page .testimonials-page-list-desctop li .second-article,
   .testimonials-page .testimonials-page-list-desctop li .third-article,
@@ -1467,31 +1468,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 100%;
     box-sizing: border-box;
   }
-  /* line 1165, ../sass/_media.scss */
+  /* line 1166, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .first-article {
     background: url("../images/testimonials-photo-1.png") no-repeat;
     background-size: cover;
     background-position: center center;
   }
-  /* line 1170, ../sass/_media.scss */
+  /* line 1171, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .second-article {
     background: url("../images/testimonials-photo-2.png") no-repeat;
     background-size: cover;
     background-position: center center;
   }
-  /* line 1175, ../sass/_media.scss */
+  /* line 1176, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .third-article {
     background: url("../images/testimonials-photo-3.png") no-repeat;
     background-size: cover;
     background-position: center center;
   }
-  /* line 1180, ../sass/_media.scss */
+  /* line 1181, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .fourth-article {
     background: url("../images/testimonials-photo-4.png") no-repeat;
     background-size: cover;
     background-position: center center;
   }
-  /* line 1187, ../sass/_media.scss */
+  /* line 1188, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .article-title {
     margin: 16px auto 0;
     color: #f37835;
@@ -1500,11 +1501,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-transform: uppercase;
     font-weight: 400;
   }
-  /* line 1195, ../sass/_media.scss */
+  /* line 1196, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .article-title span {
     font-weight: 700;
   }
-  /* line 1199, ../sass/_media.scss */
+  /* line 1200, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .article-date {
     margin: 0 auto 18px;
     text-align: left !important;
@@ -1514,7 +1515,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     line-height: 34px;
     text-transform: uppercase;
   }
-  /* line 1208, ../sass/_media.scss */
+  /* line 1209, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .article-content {
     position: relative;
     width: 398px !important;
@@ -1525,7 +1526,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #5d5d5d;
     text-align: justify;
   }
-  /* line 1217, ../sass/_media.scss */
+  /* line 1218, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .article-content:before {
     position: absolute;
     top: -12px;
@@ -1538,7 +1539,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-size: cover;
     background-position: center center;
   }
-  /* line 1229, ../sass/_media.scss */
+  /* line 1230, ../sass/_media.scss */
   .testimonials-page .testimonials-page-list-desctop li .article-content:after {
     position: absolute;
     bottom: -20px;
@@ -1551,8 +1552,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-size: cover;
     background-position: center center;
   }
-  /* line 1244, ../sass/_media.scss */
-  .testimonials-page .page-pagination {
+  /* line 1245, ../sass/_media.scss */
+  .testimonials-page .page-pagination-desctop {
+    display: block !important;
     margin: 33px auto 34px !important;
   }
 
@@ -3368,144 +3370,29 @@ footer .desctop-footer-content {
   background-position: center;
 }
 /* line 1449, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile {
+.testimonials-page .page-pagination-desctop {
   position: relative;
   width: 100%;
   box-sizing: border-box;
   margin: auto;
   background-size: contain;
   background-position: center;
-}
-/* line 1451, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li {
-  display: block;
-  width: 100%;
-  /*------------*/
-}
-/* line 1455, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .first-article,
-.testimonials-page .testimonials-page-list-mobile li .second-article,
-.testimonials-page .testimonials-page-list-mobile li .third-article,
-.testimonials-page .testimonials-page-list-mobile li .fourth-article {
-  width: 100%;
-  min-height: 130px;
-  height: 100%;
-  box-sizing: border-box;
-}
-/* line 1465, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .first-article {
-  background: url("../images/testimonials-photo-mobile-1.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 1470, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .second-article {
-  background: url("../images/testimonials-photo-mobile-2.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 1475, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .third-article {
-  background: url("../images/testimonials-photo-mobile-3.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 1480, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .fourth-article {
-  background: url("../images/testimonials-photo-mobile-4.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 1486, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block {
-  background: rgba(248, 248, 248, 0.9);
-  text-align: center;
-}
-/* line 1489, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block .article-title {
-  margin: 16px auto 0;
-  text-align: center;
-  width: auto;
-  color: #f37835;
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-/* line 1499, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block .article-title span {
-  font-weight: 700;
-}
-/* line 1503, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block .article-date {
-  margin: 0 auto 18px;
-  text-align: center;
-  color: black;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 34px;
-  text-transform: uppercase;
-}
-/* line 1512, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block .article-content {
-  position: relative;
-  width: 197px;
-  margin: 13px auto 40px;
-  font-size: 18px;
-  font-weight: 400;
-  width: 197px;
-  color: #5d5d5d;
-  text-align: justify;
-}
-/* line 1521, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block .article-content:before {
-  position: absolute;
-  top: -5px;
-  left: -30px;
-  content: "";
-  display: block;
-  width: 20px;
-  height: 18px;
-  background: url("../images/forma-left.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 1533, ../sass/main_styles.scss */
-.testimonials-page .testimonials-page-list-mobile li .full-block .article-content:after {
-  position: absolute;
-  bottom: -20px;
-  right: -30px;
-  content: "";
-  display: block;
-  width: 20px;
-  height: 18px;
-  background: url("../images/forma-right.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 1549, ../sass/main_styles.scss */
-.testimonials-page .page-pagination {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
+  display: none;
 }
 /* line 20, ../sass/main_styles.scss */
-.testimonials-page .page-pagination .pagination-list {
+.testimonials-page .page-pagination-desctop .pagination-list {
   width: 100%;
   margin: 26px auto 27px;
   text-align: center;
   box-sizing: border-box;
 }
 /* line 26, ../sass/main_styles.scss */
-.testimonials-page .page-pagination .pagination-list li {
+.testimonials-page .page-pagination-desctop .pagination-list li {
   display: inline-block;
   margin: 0 1px;
 }
 /* line 29, ../sass/main_styles.scss */
-.testimonials-page .page-pagination .pagination-list li a {
+.testimonials-page .page-pagination-desctop .pagination-list li a {
   color: black;
   font-size: 22px;
   font-weight: 400;
@@ -3518,7 +3405,161 @@ footer .desctop-footer-content {
   transition: all .3s ease-in-out;
 }
 /* line 38, ../sass/main_styles.scss */
-.testimonials-page .page-pagination .pagination-list li a:hover {
+.testimonials-page .page-pagination-desctop .pagination-list li a:hover {
+  color: #f37835;
+}
+/* line 1453, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1455, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li {
+  display: block;
+  width: 100%;
+  /*------------*/
+}
+/* line 1459, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .first-article,
+.testimonials-page .testimonials-page-list-mobile li .second-article,
+.testimonials-page .testimonials-page-list-mobile li .third-article,
+.testimonials-page .testimonials-page-list-mobile li .fourth-article {
+  width: 100%;
+  min-height: 130px;
+  height: 100%;
+  box-sizing: border-box;
+}
+/* line 1469, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .first-article {
+  background: url("../images/testimonials-photo-mobile-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1474, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .second-article {
+  background: url("../images/testimonials-photo-mobile-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1479, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .third-article {
+  background: url("../images/testimonials-photo-mobile-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1484, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .fourth-article {
+  background: url("../images/testimonials-photo-mobile-4.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1490, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block {
+  background: rgba(248, 248, 248, 0.9);
+  text-align: center;
+}
+/* line 1493, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-title {
+  margin: 16px auto 0;
+  text-align: center;
+  width: auto;
+  color: #f37835;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 1503, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-title span {
+  font-weight: 700;
+}
+/* line 1507, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-date {
+  margin: 0 auto 18px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+/* line 1516, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-content {
+  position: relative;
+  width: 197px;
+  margin: 13px auto 40px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 197px;
+  color: #5d5d5d;
+  text-align: justify;
+}
+/* line 1525, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-content:before {
+  position: absolute;
+  top: -5px;
+  left: -30px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url("../images/forma-left.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1537, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-content:after {
+  position: absolute;
+  bottom: -20px;
+  right: -30px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url("../images/forma-right.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1553, ../sass/main_styles.scss */
+.testimonials-page .page-pagination-mobile {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 20, ../sass/main_styles.scss */
+.testimonials-page .page-pagination-mobile .pagination-list {
+  width: 100%;
+  margin: 26px auto 27px;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* line 26, ../sass/main_styles.scss */
+.testimonials-page .page-pagination-mobile .pagination-list li {
+  display: inline-block;
+  margin: 0 1px;
+}
+/* line 29, ../sass/main_styles.scss */
+.testimonials-page .page-pagination-mobile .pagination-list li a {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 38, ../sass/main_styles.scss */
+.testimonials-page .page-pagination-mobile .pagination-list li a:hover {
   color: #f37835;
 }
 

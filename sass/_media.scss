@@ -1082,7 +1082,8 @@
 	.testimonials-page {
 	    overflow: hidden;
 	
-		.testimonials-page-list-mobile {
+		.testimonials-page-list-mobile,
+		.page-pagination-mobile {
 			display: none !important;
 		}
 
@@ -1241,7 +1242,8 @@
 				}
 			}
 		}
-		.page-pagination {
+		.page-pagination-desctop {
+			display: block !important;
 			margin: 33px auto 34px !important;
 		}
 	}

@@ -1446,6 +1446,10 @@ footer {
 			display: none;
 			@include site-container;
 		}
+		.page-pagination-desctop {
+			@include page-pagination;
+			display: none;
+		}
 	.testimonials-page-list-mobile, {
 		@include site-container;
 		li {
@@ -1546,7 +1550,7 @@ footer {
 			}
 		}
 	}
-	.page-pagination {
+	.page-pagination-mobile {
 		@include page-pagination;
 	}
 }
