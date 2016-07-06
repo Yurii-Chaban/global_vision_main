@@ -1241,6 +1241,322 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 955, ../sass/_media.scss */
+  .blog-more-page {
+    padding-top: 53px;
+  }
+  /* line 958, ../sass/_media.scss */
+  .blog-more-page .mobile-more-header,
+  .blog-more-page .mobile-more-content,
+  .blog-more-page .wideoWrapper-mobile,
+  .blog-more-page .float-img-mobile {
+    display: none !important;
+  }
+  /* line 964, ../sass/_media.scss */
+  .blog-more-page .desctop-more,
+  .blog-more-page .desctop-more-description,
+  .blog-more-page .slider-container,
+  .blog-more-page .wideoWrapper-desctop,
+  .blog-more-page .float-img-desctop {
+    display: block !important;
+  }
+  /* line 973, ../sass/_media.scss */
+  .blog-more-page .desctop-more .article-name {
+    margin: 0 auto;
+    text-align: left;
+    color: #f37835;
+    font-size: 42px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  /* line 981, ../sass/_media.scss */
+  .blog-more-page .desctop-more .article-name span {
+    font-weight: 700;
+  }
+  /* line 985, ../sass/_media.scss */
+  .blog-more-page .desctop-more .article-date {
+    display: block;
+    margin: 22px auto 0;
+    text-align: left;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+  /* line 997, ../sass/_media.scss */
+  .blog-more-page .float-img-desctop {
+    float: left;
+    width: auto;
+    margin: 0 37px 26px 0 !important;
+  }
+  /* line 1002, ../sass/_media.scss */
+  .blog-more-page .float-img-desctop img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  /* line 1010, ../sass/_media.scss */
+  .blog-more-page .desctop-more-description {
+    width: auto !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  /* line 1014, ../sass/_media.scss */
+  .blog-more-page .desctop-more-description .article-description {
+    margin: 25px auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #5d5d5d;
+  }
+  /* line 1027, ../sass/_media.scss */
+  .blog-more-page .back-button {
+    float: right;
+    margin: 0 0 18px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+  }
+  /* line 1035, ../sass/_media.scss */
+  .blog-more-page .back-button:hover {
+    text-decoration: underline;
+  }
+  /* line 1040, ../sass/_media.scss */
+  .blog-more-page .swiper-container-blog-more {
+    width: 100%;
+    height: 215px;
+    margin: 20px auto;
+  }
+  /* line 1044, ../sass/_media.scss */
+  .blog-more-page .swiper-container-blog-more .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: none;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* line 1064, ../sass/_media.scss */
+  .blog-more-page .swiper-container-blog-more .swiper-button-prev, .blog-more-page .swiper-container-blog-more .swiper-button-next, .blog-more-page .swiper-container-blog-more .swiper-blog-button-prev, .blog-more-page .swiper-container-blog-more .swiper-blog-button-next {
+    position: absolute;
+    top: 50%;
+    width: 46px;
+    height: 100%;
+    margin-top: -107px;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 27px 44px;
+    -webkit-background-size: 27px 44px;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 1082, ../sass/_media.scss */
+  .testimonials-page {
+    overflow: hidden;
+  }
+  /* line 1085, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-mobile {
+    display: none !important;
+  }
+  /* line 1089, ../sass/_media.scss */
+  .testimonials-page .testimonials-content {
+    display: block !important;
+    background: #fff !important;
+    border-top: 4px solid #f8f8f8;
+  }
+  /* line 1093, ../sass/_media.scss */
+  .testimonials-page .testimonials-content .testimonials-title {
+    display: block !important;
+    margin: 0 auto 20px !important;
+  }
+  /* line 1098, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop {
+    display: block !important;
+  }
+  /* line 1100, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: none !important;
+    overflow: hidden;
+    /*-----*/
+    /*------------*/
+  }
+  /* line 1107, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .right-block,
+  .testimonials-page .testimonials-page-list-desctop li .left-block {
+    position: absolute;
+    top: 0;
+    width: 50% !important;
+    height: 100%;
+    padding: 20px 0 47px 0;
+    overflow: hidden;
+    background: rgba(248, 248, 248, 0.9);
+  }
+  /* line 1117, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .right-block .position-content,
+  .testimonials-page .testimonials-page-list-desctop li .left-block .position-content {
+    max-width: 510px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 55px;
+  }
+  /* line 1124, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .right-block .position-content-float,
+  .testimonials-page .testimonials-page-list-desctop li .left-block .position-content-float {
+    float: right !important;
+    margin-right: 20px;
+    padding-left: 5px;
+  }
+  /* line 1130, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .right-block {
+    right: 0;
+  }
+  /* line 1133, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .left-block {
+    left: 0;
+  }
+  /* line 1136, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .left-block .article-title {
+    margin: 16px 0 0 40px;
+  }
+  /* line 1139, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .left-block .article-date {
+    margin: 0 0 18px 40px;
+  }
+  /* line 1143, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .left-block .article-content {
+    position: relative;
+    width: 398px !important;
+    margin: 40px !important;
+    font-size: 18px;
+    font-weight: 400;
+    width: 197px;
+    color: #5d5d5d;
+    text-align: justify;
+  }
+  /* line 1155, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .first-article,
+  .testimonials-page .testimonials-page-list-desctop li .second-article,
+  .testimonials-page .testimonials-page-list-desctop li .third-article,
+  .testimonials-page .testimonials-page-list-desctop li .fourth-article {
+    width: 100%;
+    min-height: 318px !important;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  /* line 1165, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .first-article {
+    background: url("../images/testimonials-photo-1.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 1170, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .second-article {
+    background: url("../images/testimonials-photo-2.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 1175, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .third-article {
+    background: url("../images/testimonials-photo-3.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 1180, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .fourth-article {
+    background: url("../images/testimonials-photo-4.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 1187, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .article-title {
+    margin: 16px auto 0;
+    color: #f37835;
+    font-size: 42px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  /* line 1195, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .article-title span {
+    font-weight: 700;
+  }
+  /* line 1199, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .article-date {
+    margin: 0 auto 18px;
+    text-align: left !important;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+  /* line 1208, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .article-content {
+    position: relative;
+    width: 398px !important;
+    margin: 40px auto 40px !important;
+    font-size: 18px;
+    font-weight: 400;
+    width: 197px;
+    color: #5d5d5d;
+    text-align: justify;
+  }
+  /* line 1217, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .article-content:before {
+    position: absolute;
+    top: -12px;
+    left: -40px;
+    content: "";
+    display: block;
+    width: 31px;
+    height: 27px;
+    background: url("../images/forma-left.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 1229, ../sass/_media.scss */
+  .testimonials-page .testimonials-page-list-desctop li .article-content:after {
+    position: absolute;
+    bottom: -20px;
+    right: -30px;
+    content: "";
+    display: block;
+    width: 31px;
+    height: 27px;
+    background: url("../images/forma-right.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 1244, ../sass/_media.scss */
+  .testimonials-page .page-pagination {
+    margin: 33px auto 34px !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -1256,7 +1572,7 @@ body {
   background: #fff;
 }
 
-/* line 161, ../sass/main_styles.scss */
+/* line 160, ../sass/main_styles.scss */
 .wrapper {
   max-width: 1010px;
   margin: 0 auto;
@@ -1265,13 +1581,13 @@ body {
   overflow: hidden;
 }
 
-/* line 168, ../sass/main_styles.scss */
+/* line 167, ../sass/main_styles.scss */
 a {
   text-decoration: none;
 }
 
 /*---------------------------------------*/
-/* line 172, ../sass/main_styles.scss */
+/* line 171, ../sass/main_styles.scss */
 header {
   height: 50px;
   padding: 20px 0 0 0;
@@ -1279,12 +1595,12 @@ header {
   box-shadow: 0 -2px 8px rgba(0, 1, 1, 0.11);
 }
 
-/* line 178, ../sass/main_styles.scss */
+/* line 177, ../sass/main_styles.scss */
 .dropdovn-menu-desctop {
   display: none;
 }
 
-/* line 182, ../sass/main_styles.scss */
+/* line 181, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu {
   display: block;
   position: fixed;
@@ -1302,7 +1618,7 @@ header {
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
-/* line 198, ../sass/main_styles.scss */
+/* line 197, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li {
   display: block;
   width: 100%;
@@ -1312,7 +1628,7 @@ header {
   line-height: 43px;
   vertical-align: middle;
 }
-/* line 207, ../sass/main_styles.scss */
+/* line 206, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li a {
   display: block;
   width: 100%;
@@ -1326,19 +1642,19 @@ header {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 217, ../sass/main_styles.scss */
+/* line 216, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li a:hover {
   color: #f27935;
 }
-/* line 221, ../sass/main_styles.scss */
+/* line 220, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li a.active {
   color: #f27935;
 }
-/* line 226, ../sass/main_styles.scss */
+/* line 225, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker {
   display: none;
 }
-/* line 229, ../sass/main_styles.scss */
+/* line 228, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .btn-menu {
   color: #fff;
   background-color: none;
@@ -1354,7 +1670,7 @@ header {
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
-/* line 244, ../sass/main_styles.scss */
+/* line 243, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .btn-menu span {
   display: block;
   height: 2px;
@@ -1364,30 +1680,30 @@ header {
   border-radius: 10px;
   position: relative;
 }
-/* line 253, ../sass/main_styles.scss */
+/* line 252, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .btn-menu span.first {
   margin-top: 0;
 }
-/* line 256, ../sass/main_styles.scss */
+/* line 255, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu {
   left: 145px;
 }
-/* line 259, ../sass/main_styles.scss */
+/* line 258, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .hidden-menu {
   left: 0;
 }
-/* line 262, ../sass/main_styles.scss */
+/* line 261, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu span.first {
   -webkit-transform: rotate(45deg);
   top: 9px;
   background-color: #404040;
 }
-/* line 267, ../sass/main_styles.scss */
+/* line 266, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu span.second {
   opacity: 0;
   background-color: #404040;
 }
-/* line 272, ../sass/main_styles.scss */
+/* line 271, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu span.third {
   -webkit-transform: rotate(-45deg);
   top: -5px;
@@ -1395,12 +1711,12 @@ header {
 }
 
 /*logo*/
-/* line 280, ../sass/main_styles.scss */
+/* line 279, ../sass/main_styles.scss */
 .logo-inside {
   display: none;
 }
 
-/* line 283, ../sass/main_styles.scss */
+/* line 282, ../sass/main_styles.scss */
 .logo {
   width: 210px;
   overflow: hidden;
@@ -1408,33 +1724,33 @@ header {
   /*float: left;*/
   text-align: center;
 }
-/* line 290, ../sass/main_styles.scss */
+/* line 289, ../sass/main_styles.scss */
 .logo img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 295, ../sass/main_styles.scss */
+/* line 294, ../sass/main_styles.scss */
 .header-info {
   display: none;
 }
 
 /*dropdown filter*/
-/* line 300, ../sass/main_styles.scss */
+/* line 299, ../sass/main_styles.scss */
 .call-us-block {
   float: right;
   margin: 0;
   line-height: 33px;
   vertical-align: middle;
 }
-/* line 306, ../sass/main_styles.scss */
+/* line 305, ../sass/main_styles.scss */
 .call-us-block img {
   display: inline-block;
   line-height: 33px;
   vertical-align: middle;
 }
 
-/* line 312, ../sass/main_styles.scss */
+/* line 311, ../sass/main_styles.scss */
 #info-mobile {
   width: 221px;
   height: auto;
@@ -1450,13 +1766,13 @@ header {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 324, ../sass/main_styles.scss */
+/* line 323, ../sass/main_styles.scss */
 #info-mobile a {
   display: block;
   margin: 15px auto;
   text-align: center;
 }
-/* line 328, ../sass/main_styles.scss */
+/* line 327, ../sass/main_styles.scss */
 #info-mobile a .phone {
   color: #353535;
   font-size: 22px;
@@ -1464,7 +1780,7 @@ header {
   line-height: 22px;
 }
 
-/* line 336, ../sass/main_styles.scss */
+/* line 335, ../sass/main_styles.scss */
 label {
   color: #000;
   float: right;
@@ -1474,18 +1790,18 @@ label {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 341, ../sass/main_styles.scss */
+/* line 340, ../sass/main_styles.scss */
 label .fa-phone {
   font-size: 23px;
   color: #171c61;
 }
 
-/* line 346, ../sass/main_styles.scss */
+/* line 345, ../sass/main_styles.scss */
 input {
   display: none;
 }
 
-/* line 347, ../sass/main_styles.scss */
+/* line 346, ../sass/main_styles.scss */
 input:checked + #info-mobile {
   display: none;
 }
@@ -1494,7 +1810,7 @@ input:checked + #info-mobile {
 /*end menu*/
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 353, ../sass/main_styles.scss */
+/* line 352, ../sass/main_styles.scss */
 .slider {
   position: relative;
   width: 100%;
@@ -1511,15 +1827,15 @@ input:checked + #info-mobile {
   box-sizing: border-box;
   background-position: center;
 }
-/* line 363, ../sass/main_styles.scss */
+/* line 362, ../sass/main_styles.scss */
 .slider .grid {
   display: none;
 }
-/* line 367, ../sass/main_styles.scss */
+/* line 366, ../sass/main_styles.scss */
 .slider #main-video {
   display: none;
 }
-/* line 371, ../sass/main_styles.scss */
+/* line 370, ../sass/main_styles.scss */
 .slider .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -1534,17 +1850,17 @@ input:checked + #info-mobile {
   text-align: center;
   color: #fff;
 }
-/* line 384, ../sass/main_styles.scss */
+/* line 383, ../sass/main_styles.scss */
 .slider .cd-words-wrapper .sign {
   color: #f98d14;
 }
-/* line 388, ../sass/main_styles.scss */
+/* line 387, ../sass/main_styles.scss */
 .slider .cd-intro {
   margin: 0 auto 4em;
   position: relative;
   z-index: 99;
 }
-/* line 392, ../sass/main_styles.scss */
+/* line 391, ../sass/main_styles.scss */
 .slider .cd-intro .item-sign {
   display: block;
   margin: 0 auto;
@@ -1554,7 +1870,7 @@ input:checked + #info-mobile {
   font-weight: 400;
   line-height: 13px;
 }
-/* line 401, ../sass/main_styles.scss */
+/* line 400, ../sass/main_styles.scss */
 .slider .cd-intro .company-services {
   display: none;
   width: 563px;
@@ -1566,7 +1882,7 @@ input:checked + #info-mobile {
   font-weight: 300;
   line-height: 30px;
 }
-/* line 412, ../sass/main_styles.scss */
+/* line 411, ../sass/main_styles.scss */
 .slider .cd-intro .do-button {
   display: none;
   margin: 0 auto 10px;
@@ -1591,7 +1907,7 @@ input:checked + #info-mobile {
   background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
   background-image: linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
 }
-/* line 434, ../sass/main_styles.scss */
+/* line 433, ../sass/main_styles.scss */
 .slider .cd-intro .do-button:hover {
   box-shadow: none;
   /*╨У╤А╨░╨┤╨╕╨╡╨╜╤В*/
@@ -1604,7 +1920,7 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 448, ../sass/main_styles.scss */
+/* line 447, ../sass/main_styles.scss */
 .belive-text {
   position: relative;
   width: 100%;
@@ -1615,7 +1931,7 @@ input:checked + #info-mobile {
   padding: 18px 0;
   background: #fff;
 }
-/* line 453, ../sass/main_styles.scss */
+/* line 452, ../sass/main_styles.scss */
 .belive-text .belive-content {
   margin: 0 auto;
   text-align: center;
@@ -1627,7 +1943,7 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 464, ../sass/main_styles.scss */
+/* line 463, ../sass/main_styles.scss */
 .photo-web,
 .photo-marketing,
 .photo-design,
@@ -1643,14 +1959,14 @@ input:checked + #info-mobile {
   margin: 0 auto;
   border-top: 11px solid #fff;
 }
-/* line 474, ../sass/main_styles.scss */
+/* line 473, ../sass/main_styles.scss */
 .photo-web .wrapper,
 .photo-marketing .wrapper,
 .photo-design .wrapper,
 .photo-software .wrapper {
   padding: 0;
 }
-/* line 478, ../sass/main_styles.scss */
+/* line 477, ../sass/main_styles.scss */
 .photo-web .services-title,
 .photo-marketing .services-title,
 .photo-design .services-title,
@@ -1664,7 +1980,7 @@ input:checked + #info-mobile {
   line-height: 60px;
   text-transform: uppercase;
 }
-/* line 481, ../sass/main_styles.scss */
+/* line 480, ../sass/main_styles.scss */
 .photo-web .web-list,
 .photo-web .marketing-list,
 .photo-web .design-list,
@@ -1684,13 +2000,13 @@ input:checked + #info-mobile {
   display: none;
 }
 
-/* line 489, ../sass/main_styles.scss */
+/* line 488, ../sass/main_styles.scss */
 .photo-web {
   background: url("../images/photo-web.png") no-repeat;
   background-size: cover;
   background-position: 100%;
 }
-/* line 493, ../sass/main_styles.scss */
+/* line 492, ../sass/main_styles.scss */
 .photo-web .block-container {
   width: 100%;
   position: absolute;
@@ -1702,12 +2018,12 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 500, ../sass/main_styles.scss */
+/* line 499, ../sass/main_styles.scss */
 .photo-marketing {
   background: url("../images/photo-marketing.png") no-repeat;
   background-size: cover;
 }
-/* line 503, ../sass/main_styles.scss */
+/* line 502, ../sass/main_styles.scss */
 .photo-marketing .block-container {
   width: 100%;
   position: absolute;
@@ -1719,12 +2035,12 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 510, ../sass/main_styles.scss */
+/* line 509, ../sass/main_styles.scss */
 .photo-design {
   background: url("../images/photo-design.png") no-repeat;
   background-size: cover;
 }
-/* line 513, ../sass/main_styles.scss */
+/* line 512, ../sass/main_styles.scss */
 .photo-design .block-container {
   width: 100%;
   position: absolute;
@@ -1736,12 +2052,12 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 520, ../sass/main_styles.scss */
+/* line 519, ../sass/main_styles.scss */
 .photo-software {
   background: url("../images/photo-software.png") no-repeat;
   background-size: cover;
 }
-/* line 523, ../sass/main_styles.scss */
+/* line 522, ../sass/main_styles.scss */
 .photo-software .block-container {
   width: 100%;
   position: absolute;
@@ -1753,7 +2069,7 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 530, ../sass/main_styles.scss */
+/* line 529, ../sass/main_styles.scss */
 .who-we-are {
   position: relative;
   width: 100%;
@@ -1764,7 +2080,7 @@ input:checked + #info-mobile {
   padding: 23px 0 21px;
   background: #fff;
 }
-/* line 534, ../sass/main_styles.scss */
+/* line 533, ../sass/main_styles.scss */
 .who-we-are .who-title {
   margin: 0 auto 23px;
   text-align: center;
@@ -1774,11 +2090,11 @@ input:checked + #info-mobile {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 543, ../sass/main_styles.scss */
+/* line 542, ../sass/main_styles.scss */
 .who-we-are .who-title span {
   font-weight: 700;
 }
-/* line 547, ../sass/main_styles.scss */
+/* line 546, ../sass/main_styles.scss */
 .who-we-are .who-description {
   margin: 0 auto;
   text-align: center;
@@ -1790,7 +2106,7 @@ input:checked + #info-mobile {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 558, ../sass/main_styles.scss */
+/* line 557, ../sass/main_styles.scss */
 footer {
   position: relative;
   width: 100%;
@@ -1802,18 +2118,18 @@ footer {
   background-size: cover;
   background-position: 100%;
 }
-/* line 563, ../sass/main_styles.scss */
+/* line 562, ../sass/main_styles.scss */
 footer .form-bg {
   width: 100%;
   height: auto;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.4);
 }
-/* line 569, ../sass/main_styles.scss */
+/* line 568, ../sass/main_styles.scss */
 footer .form-bg input {
   cursor: pointer;
 }
-/* line 572, ../sass/main_styles.scss */
+/* line 571, ../sass/main_styles.scss */
 footer .form-bg input[type="text"]:focus,
 footer .form-bg input[type="password"]:focus,
 footer .form-bg input[type="submit"]:focus,
@@ -1821,7 +2137,7 @@ footer .form-bg input[type="radio"]:focus,
 footer .form-bg textarea:focus {
   outline: none;
 }
-/* line 580, ../sass/main_styles.scss */
+/* line 579, ../sass/main_styles.scss */
 footer .form-bg .form-title {
   width: 100%;
   margin: 28px auto 29px;
@@ -1832,21 +2148,21 @@ footer .form-bg .form-title {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 589, ../sass/main_styles.scss */
+/* line 588, ../sass/main_styles.scss */
 footer .form-bg .form-title span {
   font-weight: 700;
 }
-/* line 593, ../sass/main_styles.scss */
+/* line 592, ../sass/main_styles.scss */
 footer .form-bg .desctop-form {
   display: none;
 }
-/* line 596, ../sass/main_styles.scss */
+/* line 595, ../sass/main_styles.scss */
 footer .form-bg #feedForm {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 600, ../sass/main_styles.scss */
+/* line 599, ../sass/main_styles.scss */
 footer .form-bg #feedForm .text-field {
   display: block;
   width: 100%;
@@ -1864,7 +2180,7 @@ footer .form-bg #feedForm .text-field {
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 617, ../sass/main_styles.scss */
+/* line 616, ../sass/main_styles.scss */
 footer .form-bg #feedForm .message-area {
   width: 100%;
   height: 156px;
@@ -1881,7 +2197,7 @@ footer .form-bg #feedForm .message-area {
   overflow: hidden;
   resize: none;
 }
-/* line 634, ../sass/main_styles.scss */
+/* line 633, ../sass/main_styles.scss */
 footer .form-bg #feedForm ::-webkit-input-placeholder {
   color: #fff;
   font-size: 18px;
@@ -1889,7 +2205,7 @@ footer .form-bg #feedForm ::-webkit-input-placeholder {
   line-height: 45px;
   text-transform: uppercase;
 }
-/* line 642, ../sass/main_styles.scss */
+/* line 641, ../sass/main_styles.scss */
 footer .form-bg #feedForm :-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
@@ -1898,7 +2214,7 @@ footer .form-bg #feedForm :-moz-placeholder {
   line-height: 45px;
   text-transform: uppercase;
 }
-/* line 650, ../sass/main_styles.scss */
+/* line 649, ../sass/main_styles.scss */
 footer .form-bg #feedForm ::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
@@ -1907,7 +2223,7 @@ footer .form-bg #feedForm ::-moz-placeholder {
   line-height: 45px;
   text-transform: uppercase;
 }
-/* line 658, ../sass/main_styles.scss */
+/* line 657, ../sass/main_styles.scss */
 footer .form-bg #feedForm :-ms-input-placeholder {
   color: #fff;
   font-size: 18px;
@@ -1915,7 +2231,7 @@ footer .form-bg #feedForm :-ms-input-placeholder {
   line-height: 45px;
   text-transform: uppercase;
 }
-/* line 665, ../sass/main_styles.scss */
+/* line 664, ../sass/main_styles.scss */
 footer .form-bg #feedForm .required {
   display: block;
   margin: 21px 0 24px;
@@ -1925,7 +2241,7 @@ footer .form-bg #feedForm .required {
   font-weight: 400;
   line-height: 22px;
 }
-/* line 674, ../sass/main_styles.scss */
+/* line 673, ../sass/main_styles.scss */
 footer .form-bg #feedForm .send-button {
   display: block;
   width: 139px;
@@ -1940,14 +2256,14 @@ footer .form-bg #feedForm .send-button {
   border: 2px solid white;
   background: none;
 }
-/* line 691, ../sass/main_styles.scss */
+/* line 690, ../sass/main_styles.scss */
 footer .mobile-footer-content {
   width: 100%;
   height: auto;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 697, ../sass/main_styles.scss */
+/* line 696, ../sass/main_styles.scss */
 footer .mobile-footer-content .phone-number {
   margin: 33px auto 24px;
   text-align: center;
@@ -1956,7 +2272,7 @@ footer .mobile-footer-content .phone-number {
   font-weight: 700;
   line-height: 22px;
 }
-/* line 705, ../sass/main_styles.scss */
+/* line 704, ../sass/main_styles.scss */
 footer .mobile-footer-content .location-address {
   margin: 0 auto;
   text-align: center;
@@ -1965,19 +2281,19 @@ footer .mobile-footer-content .location-address {
   font-weight: 400;
   line-height: 22px;
 }
-/* line 713, ../sass/main_styles.scss */
+/* line 712, ../sass/main_styles.scss */
 footer .mobile-footer-content .social-icon-mobile {
   width: 100%;
   margin: 27px auto 35px;
   text-align: center;
   box-sizing: border-box;
 }
-/* line 719, ../sass/main_styles.scss */
+/* line 718, ../sass/main_styles.scss */
 footer .mobile-footer-content .social-icon-mobile li {
   width: 100%;
   margin: 0 auto;
 }
-/* line 722, ../sass/main_styles.scss */
+/* line 721, ../sass/main_styles.scss */
 footer .mobile-footer-content .social-icon-mobile li .icon-facebook {
   display: block;
   width: 46px;
@@ -1986,11 +2302,11 @@ footer .mobile-footer-content .social-icon-mobile li .icon-facebook {
   text-align: center;
   background: url("../images/icon-facebook.png") no-repeat;
 }
-/* line 729, ../sass/main_styles.scss */
+/* line 728, ../sass/main_styles.scss */
 footer .mobile-footer-content .social-icon-mobile li .icon-facebook:hover {
   background: url("../images/icon-facebook-hover.png") no-repeat;
 }
-/* line 736, ../sass/main_styles.scss */
+/* line 735, ../sass/main_styles.scss */
 footer .copyright {
   width: 100%;
   height: auto;
@@ -2001,14 +2317,14 @@ footer .copyright {
   border-top: 2px solid #fff;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 746, ../sass/main_styles.scss */
+/* line 745, ../sass/main_styles.scss */
 footer .copyright .copyright-content {
   color: white;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
 }
-/* line 751, ../sass/main_styles.scss */
+/* line 750, ../sass/main_styles.scss */
 footer .copyright .copyright-content a {
   color: #fff;
   text-decoration: none;
@@ -2017,17 +2333,17 @@ footer .copyright .copyright-content a {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 755, ../sass/main_styles.scss */
+/* line 754, ../sass/main_styles.scss */
 footer .copyright .copyright-content a:hover {
   text-decoration: underline;
 }
-/* line 761, ../sass/main_styles.scss */
+/* line 760, ../sass/main_styles.scss */
 footer .desctop-footer-content {
   display: none;
 }
 
 /*---------------------------------------*/
-/* line 766, ../sass/main_styles.scss */
+/* line 765, ../sass/main_styles.scss */
 .direction {
   position: relative;
   width: 100%;
@@ -2038,16 +2354,16 @@ footer .desctop-footer-content {
   padding: 10px 0;
   background-color: #282828;
 }
-/* line 119, ../sass/main_styles.scss */
+/* line 118, ../sass/main_styles.scss */
 .direction .arrow-back {
   float: left;
 }
-/* line 122, ../sass/main_styles.scss */
+/* line 121, ../sass/main_styles.scss */
 .direction .direction-title {
   margin: 0 auto;
   text-align: center;
 }
-/* line 125, ../sass/main_styles.scss */
+/* line 124, ../sass/main_styles.scss */
 .direction .direction-title a {
   color: white;
   font-size: 18px;
@@ -2058,7 +2374,7 @@ footer .desctop-footer-content {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 771, ../sass/main_styles.scss */
+/* line 770, ../sass/main_styles.scss */
 .services-section {
   position: relative;
   width: 100%;
@@ -2067,12 +2383,12 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 773, ../sass/main_styles.scss */
+/* line 772, ../sass/main_styles.scss */
 .services-section .services-content-list {
   display: none;
 }
 
-/* line 777, ../sass/main_styles.scss */
+/* line 776, ../sass/main_styles.scss */
 .contact-page,
 .about-us-page {
   position: relative;
@@ -2083,7 +2399,7 @@ footer .desctop-footer-content {
   background-position: center;
   position: relative;
 }
-/* line 782, ../sass/main_styles.scss */
+/* line 781, ../sass/main_styles.scss */
 .contact-page .contact-absolute,
 .contact-page .contact-absolute-inside,
 .contact-page .about-us-absolute,
@@ -2095,7 +2411,7 @@ footer .desctop-footer-content {
   box-sizing: border-box;
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 790, ../sass/main_styles.scss */
+/* line 789, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-title,
 .contact-page .contact-absolute-inside .contact-title,
 .contact-page .about-us-absolute .contact-title,
@@ -2109,7 +2425,7 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 797, ../sass/main_styles.scss */
+/* line 796, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-title span,
 .contact-page .contact-absolute-inside .contact-title span,
 .contact-page .about-us-absolute .contact-title span,
@@ -2118,7 +2434,7 @@ footer .desctop-footer-content {
 .about-us-page .about-us-absolute .contact-title span {
   font-weight: 700;
 }
-/* line 801, ../sass/main_styles.scss */
+/* line 800, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-description,
 .contact-page .contact-absolute-inside .contact-description,
 .contact-page .about-us-absolute .contact-description,
@@ -2131,7 +2447,7 @@ footer .desctop-footer-content {
   font-weight: 400;
   line-height: 25px;
 }
-/* line 808, ../sass/main_styles.scss */
+/* line 807, ../sass/main_styles.scss */
 .contact-page .contact-absolute .about-us-title,
 .contact-page .contact-absolute-inside .about-us-title,
 .contact-page .about-us-absolute .about-us-title,
@@ -2146,7 +2462,7 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 817, ../sass/main_styles.scss */
+/* line 816, ../sass/main_styles.scss */
 .contact-page .contact-absolute .about-us-title span,
 .contact-page .contact-absolute-inside .about-us-title span,
 .contact-page .about-us-absolute .about-us-title span,
@@ -2155,7 +2471,7 @@ footer .desctop-footer-content {
 .about-us-page .about-us-absolute .about-us-title span {
   font-weight: 700;
 }
-/* line 821, ../sass/main_styles.scss */
+/* line 820, ../sass/main_styles.scss */
 .contact-page .contact-absolute .about-us-descritpion,
 .contact-page .contact-absolute-inside .about-us-descritpion,
 .contact-page .about-us-absolute .about-us-descritpion,
@@ -2167,7 +2483,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 827, ../sass/main_styles.scss */
+/* line 826, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-page-info,
 .contact-page .contact-absolute-inside .contact-page-info,
 .contact-page .about-us-absolute .contact-page-info,
@@ -2176,7 +2492,7 @@ footer .desctop-footer-content {
 .about-us-page .about-us-absolute .contact-page-info {
   margin-bottom: 63px;
 }
-/* line 829, ../sass/main_styles.scss */
+/* line 828, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-page-info dt,
 .contact-page .contact-absolute-inside .contact-page-info dt,
 .contact-page .about-us-absolute .contact-page-info dt,
@@ -2190,7 +2506,7 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   clear: both;
 }
-/* line 837, ../sass/main_styles.scss */
+/* line 836, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-page-info dd,
 .contact-page .contact-absolute-inside .contact-page-info dd,
 .contact-page .about-us-absolute .contact-page-info dd,
@@ -2199,7 +2515,7 @@ footer .desctop-footer-content {
 .about-us-page .about-us-absolute .contact-page-info dd {
   vertical-align: middle;
 }
-/* line 839, ../sass/main_styles.scss */
+/* line 838, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-page-info dd img,
 .contact-page .contact-absolute-inside .contact-page-info dd img,
 .contact-page .about-us-absolute .contact-page-info dd img,
@@ -2209,7 +2525,7 @@ footer .desctop-footer-content {
   float: left;
   margin-right: 19px;
 }
-/* line 843, ../sass/main_styles.scss */
+/* line 842, ../sass/main_styles.scss */
 .contact-page .contact-absolute .contact-page-info dd span,
 .contact-page .contact-absolute-inside .contact-page-info dd span,
 .contact-page .about-us-absolute .contact-page-info dd span,
@@ -2224,7 +2540,7 @@ footer .desctop-footer-content {
   overflow: hidden;
   box-sizing: border-box;
 }
-/* line 855, ../sass/main_styles.scss */
+/* line 854, ../sass/main_styles.scss */
 .contact-page .about-desctop,
 .about-us-page .about-desctop {
   position: relative;
@@ -2239,12 +2555,12 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: left center;
 }
-/* line 863, ../sass/main_styles.scss */
+/* line 862, ../sass/main_styles.scss */
 .contact-page .about-desctop .about-us-absolute-desctop,
 .about-us-page .about-desctop .about-us-absolute-desctop {
   display: none;
 }
-/* line 869, ../sass/main_styles.scss */
+/* line 868, ../sass/main_styles.scss */
 .contact-page .mapWrapper,
 .about-us-page .mapWrapper {
   position: relative;
@@ -2264,7 +2580,7 @@ footer .desctop-footer-content {
   width: 100%;
   height: 100%;
 }
-/* line 873, ../sass/main_styles.scss */
+/* line 872, ../sass/main_styles.scss */
 .contact-page .mapWrapper .gm-style .place-card-large,
 .about-us-page .mapWrapper .gm-style .place-card-large {
   display: none !important;
@@ -2272,7 +2588,7 @@ footer .desctop-footer-content {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 880, ../sass/main_styles.scss */
+/* line 879, ../sass/main_styles.scss */
 .about-us-page {
   position: relative;
   width: 100%;
@@ -2282,14 +2598,14 @@ footer .desctop-footer-content {
   background-position: center;
   position: relative;
 }
-/* line 884, ../sass/main_styles.scss */
+/* line 883, ../sass/main_styles.scss */
 .about-us-page .about-us-absolute {
   width: 100%;
   height: auto;
   box-sizing: border-box;
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 890, ../sass/main_styles.scss */
+/* line 889, ../sass/main_styles.scss */
 .about-us-page .about-us-absolute .about-us-title {
   margin: 22px auto 20px;
   text-align: center;
@@ -2299,11 +2615,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 899, ../sass/main_styles.scss */
+/* line 898, ../sass/main_styles.scss */
 .about-us-page .about-us-absolute .about-us-title span {
   font-weight: 700;
 }
-/* line 903, ../sass/main_styles.scss */
+/* line 902, ../sass/main_styles.scss */
 .about-us-page .about-us-absolute .about-us-description {
   margin: 0 auto 22px;
   font-size: 18px;
@@ -2311,7 +2627,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 911, ../sass/main_styles.scss */
+/* line 910, ../sass/main_styles.scss */
 .about-us-page .about-desctop {
   position: relative;
   width: 100%;
@@ -2325,14 +2641,14 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: left center;
 }
-/* line 919, ../sass/main_styles.scss */
+/* line 918, ../sass/main_styles.scss */
 .about-us-page .about-desctop .about-us-absolute-desctop {
   display: none;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 926, ../sass/main_styles.scss */
+/* line 925, ../sass/main_styles.scss */
 .services-page {
   position: relative;
   width: 100%;
@@ -2341,12 +2657,12 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 928, ../sass/main_styles.scss */
+/* line 927, ../sass/main_styles.scss */
 .services-page .portfolio-content {
   background: rgba(248, 248, 248, 0.9);
   padding: 37px 0 17px 26px;
 }
-/* line 931, ../sass/main_styles.scss */
+/* line 930, ../sass/main_styles.scss */
 .services-page .portfolio-content .portfolio-title {
   display: none;
   margin: 38px auto 34px;
@@ -2357,14 +2673,14 @@ footer .desctop-footer-content {
   line-height: 60px;
   text-transform: uppercase;
 }
-/* line 941, ../sass/main_styles.scss */
+/* line 940, ../sass/main_styles.scss */
 .services-page .portfolio-content .portfolio-description {
   color: #5d5d5d;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
 }
-/* line 948, ../sass/main_styles.scss */
+/* line 947, ../sass/main_styles.scss */
 .services-page .services-page-list {
   position: relative;
   width: 100%;
@@ -2373,7 +2689,7 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 950, ../sass/main_styles.scss */
+/* line 949, ../sass/main_styles.scss */
 .services-page .services-page-list li {
   display: block;
   width: 100%;
@@ -2381,7 +2697,7 @@ footer .desctop-footer-content {
   /*-----*/
   /*------------*/
 }
-/* line 955, ../sass/main_styles.scss */
+/* line 954, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-bg,
 .services-page .services-page-list li .marketing-bg,
 .services-page .services-page-list li .software-bg,
@@ -2390,62 +2706,62 @@ footer .desctop-footer-content {
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 964, ../sass/main_styles.scss */
+/* line 963, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
 }
-/* line 967, ../sass/main_styles.scss */
+/* line 966, ../sass/main_styles.scss */
 .services-page .services-page-list li .marketing-bg {
   background: url("../images/marketing-bg.png") no-repeat;
 }
-/* line 970, ../sass/main_styles.scss */
+/* line 969, ../sass/main_styles.scss */
 .services-page .services-page-list li .software-bg {
   background: url("../images/software-bg.png") no-repeat;
 }
-/* line 973, ../sass/main_styles.scss */
+/* line 972, ../sass/main_styles.scss */
 .services-page .services-page-list li .design-bg {
   background: url("../images/design-bg.png") no-repeat;
 }
-/* line 977, ../sass/main_styles.scss */
+/* line 976, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 979, ../sass/main_styles.scss */
+/* line 978, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 983, ../sass/main_styles.scss */
+/* line 982, ../sass/main_styles.scss */
 .services-page .services-page-list li .marketing-text {
   background-color: #26a6a5;
 }
-/* line 985, ../sass/main_styles.scss */
+/* line 984, ../sass/main_styles.scss */
 .services-page .services-page-list li .marketing-text .serv-title {
   border-bottom: 2px solid #26a6a5;
 }
-/* line 989, ../sass/main_styles.scss */
+/* line 988, ../sass/main_styles.scss */
 .services-page .services-page-list li .software-text {
   background-color: #f5a812;
 }
-/* line 991, ../sass/main_styles.scss */
+/* line 990, ../sass/main_styles.scss */
 .services-page .services-page-list li .software-text .serv-title {
   border-bottom: 2px solid #f5a812;
 }
-/* line 995, ../sass/main_styles.scss */
+/* line 994, ../sass/main_styles.scss */
 .services-page .services-page-list li .design-text {
   background-color: #e95b4d;
 }
-/* line 997, ../sass/main_styles.scss */
+/* line 996, ../sass/main_styles.scss */
 .services-page .services-page-list li .design-text .serv-title {
   border-bottom: 2px solid #e95b4d;
 }
-/* line 1002, ../sass/main_styles.scss */
+/* line 1001, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-text,
 .services-page .services-page-list li .marketing-text,
 .services-page .services-page-list li .software-text,
 .services-page .services-page-list li .design-text {
   text-align: center;
 }
-/* line 1007, ../sass/main_styles.scss */
+/* line 1006, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-text .serv-title,
 .services-page .services-page-list li .marketing-text .serv-title,
 .services-page .services-page-list li .software-text .serv-title,
@@ -2462,14 +2778,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1017, ../sass/main_styles.scss */
+/* line 1016, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-text .serv-title:hover,
 .services-page .services-page-list li .marketing-text .serv-title:hover,
 .services-page .services-page-list li .software-text .serv-title:hover,
 .services-page .services-page-list li .design-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 1021, ../sass/main_styles.scss */
+/* line 1020, ../sass/main_styles.scss */
 .services-page .services-page-list li .web-text .sign-title,
 .services-page .services-page-list li .marketing-text .sign-title,
 .services-page .services-page-list li .software-text .sign-title,
@@ -2483,7 +2799,7 @@ footer .desctop-footer-content {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1034, ../sass/main_styles.scss */
+/* line 1033, ../sass/main_styles.scss */
 .blog-page {
   position: relative;
   width: 100%;
@@ -2492,13 +2808,13 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1036, ../sass/main_styles.scss */
+/* line 1035, ../sass/main_styles.scss */
 .blog-page .blog-content {
   display: none;
   background: rgba(248, 248, 248, 0.9);
   padding: 37px 0 17px 26px;
 }
-/* line 1040, ../sass/main_styles.scss */
+/* line 1039, ../sass/main_styles.scss */
 .blog-page .blog-content .blog-title {
   display: none;
   margin: 38px auto 34px;
@@ -2509,7 +2825,7 @@ footer .desctop-footer-content {
   line-height: 60px;
   text-transform: uppercase;
 }
-/* line 1051, ../sass/main_styles.scss */
+/* line 1050, ../sass/main_styles.scss */
 .blog-page .blog-page-list-desctop {
   display: none;
   position: relative;
@@ -2519,7 +2835,7 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1055, ../sass/main_styles.scss */
+/* line 1054, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile {
   position: relative;
   width: 100%;
@@ -2528,7 +2844,7 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1057, ../sass/main_styles.scss */
+/* line 1056, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li {
   display: block;
   width: 100%;
@@ -2536,7 +2852,7 @@ footer .desctop-footer-content {
   /*-----*/
   /*------------*/
 }
-/* line 1062, ../sass/main_styles.scss */
+/* line 1061, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .first-article,
 .blog-page .blog-page-list-mobile li .second-article,
 .blog-page .blog-page-list-mobile li .third-article,
@@ -2546,40 +2862,40 @@ footer .desctop-footer-content {
   height: 100%;
   box-sizing: border-box;
 }
-/* line 1072, ../sass/main_styles.scss */
+/* line 1071, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .first-article {
   background: url("../images/first-article-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1077, ../sass/main_styles.scss */
+/* line 1076, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .second-article {
   background: url("../images/second-article-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1082, ../sass/main_styles.scss */
+/* line 1081, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .third-article {
   background: url("../images/third-article-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1087, ../sass/main_styles.scss */
+/* line 1086, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .fourth-article {
   background: url("../images/fourth-article-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1093, ../sass/main_styles.scss */
+/* line 1092, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .top-block,
 .blog-page .blog-page-list-mobile li .bottom-block {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1098, ../sass/main_styles.scss */
+/* line 1097, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .top-block {
   text-align: center;
 }
-/* line 1100, ../sass/main_styles.scss */
+/* line 1099, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .top-block .article-title {
   margin: 16px auto 0;
   text-align: center;
@@ -2590,11 +2906,11 @@ footer .desctop-footer-content {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 1110, ../sass/main_styles.scss */
+/* line 1109, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .top-block .article-title span {
   font-weight: 700;
 }
-/* line 1114, ../sass/main_styles.scss */
+/* line 1113, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .top-block .article-date {
   margin: 0 auto 18px;
   text-align: center;
@@ -2604,7 +2920,7 @@ footer .desctop-footer-content {
   line-height: 34px;
   text-transform: uppercase;
 }
-/* line 1125, ../sass/main_styles.scss */
+/* line 1124, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .bottom-block .article-content {
   margin: 13px 0 0 26px;
   font-size: 18px;
@@ -2612,7 +2928,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 1132, ../sass/main_styles.scss */
+/* line 1131, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .bottom-block .article-more {
   float: right;
   margin: 20px 0 18px;
@@ -2626,11 +2942,11 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1142, ../sass/main_styles.scss */
+/* line 1141, ../sass/main_styles.scss */
 .blog-page .blog-page-list-mobile li .bottom-block .article-more:hover {
   border-color: #000;
 }
-/* line 1149, ../sass/main_styles.scss */
+/* line 1148, ../sass/main_styles.scss */
 .blog-page .page-pagination {
   position: relative;
   width: 100%;
@@ -2671,7 +2987,7 @@ footer .desctop-footer-content {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1155, ../sass/main_styles.scss */
+/* line 1154, ../sass/main_styles.scss */
 .services-page-main {
   position: relative;
   width: 100%;
@@ -2680,13 +2996,13 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1157, ../sass/main_styles.scss */
+/* line 1156, ../sass/main_styles.scss */
 .services-page-main .content-services-main {
   display: none;
   background: rgba(248, 248, 248, 0.9);
   padding: 37px 0 17px 26px;
 }
-/* line 1161, ../sass/main_styles.scss */
+/* line 1160, ../sass/main_styles.scss */
 .services-page-main .content-services-main .title-services-main {
   display: none;
   margin: 0 auto;
@@ -2697,7 +3013,7 @@ footer .desctop-footer-content {
   line-height: 60px;
   text-transform: uppercase;
 }
-/* line 1172, ../sass/main_styles.scss */
+/* line 1171, ../sass/main_styles.scss */
 .services-page-main .page-list-services {
   position: relative;
   width: 100%;
@@ -2707,14 +3023,14 @@ footer .desctop-footer-content {
   background-position: center;
   margin: 12px auto 0;
 }
-/* line 1175, ../sass/main_styles.scss */
+/* line 1174, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li {
   display: block;
   width: 100%;
   /*-----*/
   /*------------*/
 }
-/* line 1179, ../sass/main_styles.scss */
+/* line 1178, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-bg,
 .services-page-main .page-list-services > li .marketing-bg,
 .services-page-main .page-list-services > li .software-bg,
@@ -2723,7 +3039,7 @@ footer .desctop-footer-content {
   padding: 20px 0;
   box-sizing: border-box;
 }
-/* line 1187, ../sass/main_styles.scss */
+/* line 1186, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-bg img,
 .services-page-main .page-list-services > li .marketing-bg img,
 .services-page-main .page-list-services > li .software-bg img,
@@ -2734,87 +3050,87 @@ footer .desctop-footer-content {
   height: auto;
   margin: 0 auto;
 }
-/* line 1196, ../sass/main_styles.scss */
+/* line 1195, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-bg {
   background-color: #f37835;
 }
-/* line 1199, ../sass/main_styles.scss */
+/* line 1198, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .marketing-bg {
   background-color: #26a6a5;
 }
-/* line 1202, ../sass/main_styles.scss */
+/* line 1201, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .software-bg {
   background-color: #f5a812;
 }
-/* line 1205, ../sass/main_styles.scss */
+/* line 1204, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .design-bg {
   background-color: #e95b4d;
 }
-/* line 1209, ../sass/main_styles.scss */
+/* line 1208, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text {
   background-color: #f37835;
 }
-/* line 1211, ../sass/main_styles.scss */
+/* line 1210, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .serv-title {
   color: #f37835;
 }
-/* line 1213, ../sass/main_styles.scss */
+/* line 1212, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .serv-title:hover {
   border-color: #f37835;
 }
-/* line 1219, ../sass/main_styles.scss */
+/* line 1218, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .sign-title li a {
   color: #f37835;
 }
-/* line 1225, ../sass/main_styles.scss */
+/* line 1224, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .marketing-text {
   background-color: #26a6a5;
 }
-/* line 1227, ../sass/main_styles.scss */
+/* line 1226, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .marketing-text .serv-title {
   color: #26a6a5;
 }
-/* line 1229, ../sass/main_styles.scss */
+/* line 1228, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .marketing-text .serv-title:hover {
   border-color: #26a6a5;
 }
-/* line 1235, ../sass/main_styles.scss */
+/* line 1234, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .marketing-text .sign-title li a {
   color: #26a6a5;
 }
-/* line 1241, ../sass/main_styles.scss */
+/* line 1240, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .software-text {
   background-color: #f5a812;
 }
-/* line 1243, ../sass/main_styles.scss */
+/* line 1242, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .software-text .serv-title {
   color: #f5a812;
 }
-/* line 1245, ../sass/main_styles.scss */
+/* line 1244, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .software-text .serv-title:hover {
   border-color: #f5a812;
 }
-/* line 1251, ../sass/main_styles.scss */
+/* line 1250, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .software-text .sign-title li a {
   color: #f5a812;
 }
-/* line 1257, ../sass/main_styles.scss */
+/* line 1256, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .design-text {
   background-color: #e95b4d;
 }
-/* line 1259, ../sass/main_styles.scss */
+/* line 1258, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .design-text .serv-title {
   color: #e95b4d;
 }
-/* line 1261, ../sass/main_styles.scss */
+/* line 1260, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .design-text .serv-title:hover {
   border-color: #e95b4d;
 }
-/* line 1267, ../sass/main_styles.scss */
+/* line 1266, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .design-text .sign-title li a {
   color: #e95b4d;
 }
-/* line 1274, ../sass/main_styles.scss */
+/* line 1273, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text,
 .services-page-main .page-list-services > li .marketing-text,
 .services-page-main .page-list-services > li .software-text,
@@ -2824,7 +3140,7 @@ footer .desctop-footer-content {
   text-align: center;
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1282, ../sass/main_styles.scss */
+/* line 1281, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .serv-title,
 .services-page-main .page-list-services > li .marketing-text .serv-title,
 .services-page-main .page-list-services > li .software-text .serv-title,
@@ -2841,7 +3157,7 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1293, ../sass/main_styles.scss */
+/* line 1292, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .sign-title,
 .services-page-main .page-list-services > li .marketing-text .sign-title,
 .services-page-main .page-list-services > li .software-text .sign-title,
@@ -2850,7 +3166,7 @@ footer .desctop-footer-content {
   margin: 5px auto;
   box-sizing: border-box;
 }
-/* line 1299, ../sass/main_styles.scss */
+/* line 1298, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .sign-title li a,
 .services-page-main .page-list-services > li .marketing-text .sign-title li a,
 .services-page-main .page-list-services > li .software-text .sign-title li a,
@@ -2860,12 +3176,350 @@ footer .desctop-footer-content {
   line-height: 49px;
   text-decoration: none;
 }
-/* line 1305, ../sass/main_styles.scss */
+/* line 1304, ../sass/main_styles.scss */
 .services-page-main .page-list-services > li .web-text .sign-title li a:hover,
 .services-page-main .page-list-services > li .marketing-text .sign-title li a:hover,
 .services-page-main .page-list-services > li .software-text .sign-title li a:hover,
 .services-page-main .page-list-services > li .design-text .sign-title li a:hover {
   text-decoration: underline;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 1316, ../sass/main_styles.scss */
+.design-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1319, ../sass/main_styles.scss */
+.design-page .swiper-container-design {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+/* line 1323, ../sass/main_styles.scss */
+.design-page .swiper-container-design .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 1346, ../sass/main_styles.scss */
+.blog-more-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 1350, ../sass/main_styles.scss */
+.blog-more-page .desctop-more,
+.blog-more-page .desctop-more-description,
+.blog-more-page .slider-container,
+.blog-more-page .wideoWrapper-desctop,
+.blog-more-page .float-img-desctop {
+  display: none;
+}
+/* line 1359, ../sass/main_styles.scss */
+.blog-more-page .mobile-more-header .article-name {
+  margin: 12px auto 0;
+  text-align: center;
+  color: #f37835;
+  font-size: 22px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 1367, ../sass/main_styles.scss */
+.blog-more-page .mobile-more-header .article-name span {
+  font-weight: 700;
+}
+/* line 1371, ../sass/main_styles.scss */
+.blog-more-page .mobile-more-header .article-date {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+/* line 1383, ../sass/main_styles.scss */
+.blog-more-page .float-img {
+  width: auto;
+  margin: 15px auto 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* line 1389, ../sass/main_styles.scss */
+.blog-more-page .float-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+/* line 1397, ../sass/main_styles.scss */
+.blog-more-page .mobile-more-content {
+  width: 100%;
+  margin: 18px auto;
+  box-sizing: border-box;
+}
+/* line 1401, ../sass/main_styles.scss */
+.blog-more-page .mobile-more-content .article-descroption {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 1409, ../sass/main_styles.scss */
+.blog-more-page .wideoWrapper {
+  max-width: 982px;
+  max-height: 529px;
+  overflow: hidden;
+  margin: 20px auto 31px;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  text-align: center;
+}
+/* line 72, ../sass/main_styles.scss */
+.blog-more-page .wideoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 1413, ../sass/main_styles.scss */
+.blog-more-page .back-button {
+  float: right;
+  margin: 0 0 18px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+/* line 1421, ../sass/main_styles.scss */
+.blog-more-page .back-button:hover {
+  text-decoration: underline;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 1428, ../sass/main_styles.scss */
+.testimonials-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1430, ../sass/main_styles.scss */
+.testimonials-page .testimonials-content {
+  display: none;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 37px 0 17px 26px;
+}
+/* line 1434, ../sass/main_styles.scss */
+.testimonials-page .testimonials-content .testimonials-title {
+  display: none;
+  margin: 38px auto 34px;
+  text-align: center;
+  color: black;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+/* line 1445, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-desctop {
+  display: none;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1449, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1451, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li {
+  display: block;
+  width: 100%;
+  /*------------*/
+}
+/* line 1455, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .first-article,
+.testimonials-page .testimonials-page-list-mobile li .second-article,
+.testimonials-page .testimonials-page-list-mobile li .third-article,
+.testimonials-page .testimonials-page-list-mobile li .fourth-article {
+  width: 100%;
+  min-height: 130px;
+  height: 100%;
+  box-sizing: border-box;
+}
+/* line 1465, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .first-article {
+  background: url("../images/testimonials-photo-mobile-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1470, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .second-article {
+  background: url("../images/testimonials-photo-mobile-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1475, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .third-article {
+  background: url("../images/testimonials-photo-mobile-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1480, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .fourth-article {
+  background: url("../images/testimonials-photo-mobile-4.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1486, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block {
+  background: rgba(248, 248, 248, 0.9);
+  text-align: center;
+}
+/* line 1489, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-title {
+  margin: 16px auto 0;
+  text-align: center;
+  width: auto;
+  color: #f37835;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 1499, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-title span {
+  font-weight: 700;
+}
+/* line 1503, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-date {
+  margin: 0 auto 18px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+/* line 1512, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-content {
+  position: relative;
+  width: 197px;
+  margin: 13px auto 40px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 197px;
+  color: #5d5d5d;
+  text-align: justify;
+}
+/* line 1521, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-content:before {
+  position: absolute;
+  top: -5px;
+  left: -30px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url("../images/forma-left.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1533, ../sass/main_styles.scss */
+.testimonials-page .testimonials-page-list-mobile li .full-block .article-content:after {
+  position: absolute;
+  bottom: -20px;
+  right: -30px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url("../images/forma-right.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1549, ../sass/main_styles.scss */
+.testimonials-page .page-pagination {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 20, ../sass/main_styles.scss */
+.testimonials-page .page-pagination .pagination-list {
+  width: 100%;
+  margin: 26px auto 27px;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* line 26, ../sass/main_styles.scss */
+.testimonials-page .page-pagination .pagination-list li {
+  display: inline-block;
+  margin: 0 1px;
+}
+/* line 29, ../sass/main_styles.scss */
+.testimonials-page .page-pagination .pagination-list li a {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 38, ../sass/main_styles.scss */
+.testimonials-page .page-pagination .pagination-list li a:hover {
+  color: #f37835;
 }
 
 /*---------------------------------------*/
