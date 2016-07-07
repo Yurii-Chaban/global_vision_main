@@ -1705,6 +1705,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 1384, ../sass/_media.scss */
+  .photography-page .photography-mobile {
+    display: none;
+  }
+  /* line 1388, ../sass/_media.scss */
+  .photography-page .photography-img-bg {
+    height: 735px !important;
+    background: url("../images/photography-bg.png") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 1393, ../sass/_media.scss */
+  .photography-page .photography-img-bg .photography-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 1401, ../sass/_media.scss */
+  .photography-page .photography-img-bg .photography-desctop .photography-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #e95b4d !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1412, ../sass/_media.scss */
+  .photography-page .photography-img-bg .photography-desctop .photography-title:hover {
+    border-color: #fff;
+  }
+  /* line 1416, ../sass/_media.scss */
+  .photography-page .photography-img-bg .photography-desctop .photography-title span {
+    font-weight: 700;
+  }
+  /* line 1420, ../sass/_media.scss */
+  .photography-page .photography-img-bg .photography-desctop .photography-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 1431, ../sass/_media.scss */
+  .photography-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 1436, ../sass/_media.scss */
+  .photography-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 1445, ../sass/_media.scss */
+  .photography-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 1448, ../sass/_media.scss */
+  .photography-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 1452, ../sass/_media.scss */
+  .photography-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 1459, ../sass/_media.scss */
+  .photography-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 1462, ../sass/_media.scss */
+  .photography-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 1468, ../sass/_media.scss */
+  .photography-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 1472, ../sass/_media.scss */
+  .photography-page .services-page-list li .web-text .serv-title,
+  .photography-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 1476, ../sass/_media.scss */
+  .photography-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -3841,6 +3953,134 @@ footer .desctop-footer-content {
 }
 /* line 1661, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 1674, ../sass/main_styles.scss */
+.photography-page .photography-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/photography-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1683, ../sass/main_styles.scss */
+.photography-page .photography-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 1687, ../sass/main_styles.scss */
+.photography-page .photo-ather-content {
+  display: none;
+}
+/* line 1690, ../sass/main_styles.scss */
+.photography-page .photography-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 1692, ../sass/main_styles.scss */
+.photography-page .photography-mobile .photography-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #e95b4d;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 1701, ../sass/main_styles.scss */
+.photography-page .photography-mobile .photography-title span {
+  font-weight: 700;
+}
+/* line 1705, ../sass/main_styles.scss */
+.photography-page .photography-mobile .photography-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 1715, ../sass/main_styles.scss */
+.photography-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1717, ../sass/main_styles.scss */
+.photography-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 1722, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 1728, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 1733, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 1735, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 1740, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 1742, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 1752, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 1756, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 1758, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 1767, ../sass/main_styles.scss */
+.photography-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 

@@ -1668,3 +1668,109 @@ footer {
 	}
 }
 /*---------------------------------------*/
+/*---------------------------------------*/
+.photography-page {
+
+	.photography-img-bg {
+		width: 100%;
+		height: 173px;
+		margin-top: 17px;
+		box-sizing: border-box;
+		background: url('../images/photography-bg.png') no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+	.photography-desctop {
+		background: rgba(248,248,248, 0.9);
+		display: none;
+	}
+	.photo-ather-content {
+		display: none;
+	}
+	.photography-mobile {
+		background: rgba(248,248,248, 0.9);
+		.photography-title {
+			margin: 22px auto 0;
+			text-align: center;
+			color: #e95b4d;
+			font-size: 22px;
+			line-height: 30px;
+			text-transform: uppercase;
+			font-weight: 400;
+
+			span {
+				font-weight: 700;
+			}
+		}
+		.photography-description {
+			margin: 20px auto;
+			padding: 0 15px;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 25px;
+			color: #5d5d5d;
+		}
+	}
+
+	.services-page-list {
+		@include site-container;
+		li {
+		    display: block;
+		    width: 100%;
+		    border-bottom: 12px solid #fff;
+			
+			.web-bg {
+				width: 100%;
+				min-height: 130px;
+				box-sizing: border-box;
+			}
+
+			.web-bg {
+				background: url('../images/web-bg.png') no-repeat;
+				background-size: cover;
+    			background-position: center center;
+			}
+			.web-text {
+				background-color: #f37835;
+				.serv-title {
+					border-bottom: 2px solid #f37835;
+				}
+			}
+			/*------------*/
+			.web-text {
+				text-align: center;
+				.serv-title {
+					width: auto;
+					color: white;
+					font-size: 40px;
+					font-weight: 700;
+					line-height: 48px;
+					text-transform: uppercase;
+					text-decoration: none;
+					@include transition;
+
+					&:hover {
+						border-color: #fff;
+					}
+				}
+				.sign-title {
+					margin: 5px auto;
+					a {
+						width: auto;
+						color: white;
+						font-size: 22px;
+						font-weight: 400;
+						line-height: 28px;
+						border-bottom: 1px solid rgba(248,248,248, 0);
+						@include transition;
+
+						&:hover {
+							border-color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---------------------------------------*/
