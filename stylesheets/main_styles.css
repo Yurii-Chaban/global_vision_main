@@ -2389,6 +2389,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 2011, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-mobile {
+    display: none;
+  }
+  /* line 2015, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-img-bg {
+    height: 735px !important;
+    background: url("../images/pay-per_click_marketing.jpg") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 2020, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-img-bg .pay-per-click-marketing-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 2028, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-img-bg .pay-per-click-marketing-desctop .pay-per-click-marketing-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #26a6a5 !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 2039, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-img-bg .pay-per-click-marketing-desctop .pay-per-click-marketing-title:hover {
+    border-color: #fff;
+  }
+  /* line 2043, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-img-bg .pay-per-click-marketing-desctop .pay-per-click-marketing-title span {
+    font-weight: 700;
+  }
+  /* line 2047, ../sass/_media.scss */
+  .pay-per-click-marketing-page .pay-per-click-marketing-img-bg .pay-per-click-marketing-desctop .pay-per-click-marketing-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 2058, ../sass/_media.scss */
+  .pay-per-click-marketing-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 2063, ../sass/_media.scss */
+  .pay-per-click-marketing-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 2072, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 2075, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 2079, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 2086, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 2089, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 2095, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 2099, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li .web-text .serv-title,
+  .pay-per-click-marketing-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 2103, ../sass/_media.scss */
+  .pay-per-click-marketing-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -5293,6 +5405,134 @@ footer .desctop-footer-content {
 }
 /* line 2297, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 2310, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .pay-per-click-marketing-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/pay-per_click_marketing.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2319, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .pay-per-click-marketing-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 2323, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .photo-ather-content {
+  display: none;
+}
+/* line 2326, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .pay-per-click-marketing-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 2328, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .pay-per-click-marketing-mobile .pay-per-click-marketing-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #26a6a5;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 2337, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .pay-per-click-marketing-mobile .pay-per-click-marketing-title span {
+  font-weight: 700;
+}
+/* line 2341, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .pay-per-click-marketing-mobile .pay-per-click-marketing-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 2351, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 2353, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 2358, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 2364, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2369, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 2371, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 2376, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 2378, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2388, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 2392, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 2394, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2403, ../sass/main_styles.scss */
+.pay-per-click-marketing-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
