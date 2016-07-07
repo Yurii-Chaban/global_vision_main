@@ -134,7 +134,7 @@
 							<a href="#">Web Support</a>
 						</li>
 						<li>
-							<a href="#">Ready-to-Go Websites</a>
+							<a href="Global_vision_service_ready_to_go.html">Ready-to-Go Websites</a>
 						</li>
 					</ul>
 				</li>
@@ -406,12 +406,48 @@
 	</script>
 	<script>
 		$(function () {
-	        $('.services-content-list li a').each(function () {
+	        $('.services-web li a').each(function () {
 	            var location = window.location.href;
 	            var link = this.href;
 	            var result = location.match(link);
 	            if(result) {
-	            $(this).addClass('active-services');
+	            $(this).addClass('active-services-web');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.services-marketing li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-services-marketing');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.services-software li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-services-software');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.services-design li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-services-disign');
 	            }
 	        });
 	    });
