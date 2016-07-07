@@ -2501,6 +2501,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 2114, ../sass/_media.scss */
+  .seo-page .seo-mobile {
+    display: none;
+  }
+  /* line 2118, ../sass/_media.scss */
+  .seo-page .seo-img-bg {
+    height: 735px !important;
+    background: url("../images/SEO.jpg") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 2123, ../sass/_media.scss */
+  .seo-page .seo-img-bg .seo-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 2131, ../sass/_media.scss */
+  .seo-page .seo-img-bg .seo-desctop .seo-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #26a6a5 !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 2142, ../sass/_media.scss */
+  .seo-page .seo-img-bg .seo-desctop .seo-title:hover {
+    border-color: #fff;
+  }
+  /* line 2146, ../sass/_media.scss */
+  .seo-page .seo-img-bg .seo-desctop .seo-title span {
+    font-weight: 700;
+  }
+  /* line 2150, ../sass/_media.scss */
+  .seo-page .seo-img-bg .seo-desctop .seo-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 2161, ../sass/_media.scss */
+  .seo-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 2166, ../sass/_media.scss */
+  .seo-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 2175, ../sass/_media.scss */
+  .seo-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 2178, ../sass/_media.scss */
+  .seo-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 2182, ../sass/_media.scss */
+  .seo-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 2189, ../sass/_media.scss */
+  .seo-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 2192, ../sass/_media.scss */
+  .seo-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 2198, ../sass/_media.scss */
+  .seo-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 2202, ../sass/_media.scss */
+  .seo-page .services-page-list li .web-text .serv-title,
+  .seo-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 2206, ../sass/_media.scss */
+  .seo-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -5533,6 +5645,134 @@ footer .desctop-footer-content {
 }
 /* line 2403, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 2416, ../sass/main_styles.scss */
+.seo-page .seo-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/SEO.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2425, ../sass/main_styles.scss */
+.seo-page .seo-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 2429, ../sass/main_styles.scss */
+.seo-page .photo-ather-content {
+  display: none;
+}
+/* line 2432, ../sass/main_styles.scss */
+.seo-page .seo-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 2434, ../sass/main_styles.scss */
+.seo-page .seo-mobile .seo-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #26a6a5;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 2443, ../sass/main_styles.scss */
+.seo-page .seo-mobile .seo-title span {
+  font-weight: 700;
+}
+/* line 2447, ../sass/main_styles.scss */
+.seo-page .seo-mobile .seo-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 2457, ../sass/main_styles.scss */
+.seo-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 2459, ../sass/main_styles.scss */
+.seo-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 2464, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 2470, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2475, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 2477, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 2482, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 2484, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2494, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 2498, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 2500, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2509, ../sass/main_styles.scss */
+.seo-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
