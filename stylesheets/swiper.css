@@ -15,7 +15,7 @@
 .swiper-container {
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
   /* Fix of Webkit flickering */
   z-index: 1;
 }
@@ -133,10 +133,27 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.swiper-portfolio-button-prev,
+.swiper-portfolio-button-next {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  -moz-background-size: 27px 44px;
+  -webkit-background-size: 27px 44px;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled,
 .swiper-blog-button-prev.swiper-button-disabled,
-.swiper-blog-button-next.swiper-button-disabled {
+.swiper-blog-button-next.swiper-button-disabled,
+.swiper-portfolio-button-prev.swiper-button-disabled,
+.swiper-portfolio-button-next.swiper-button-disabled {
   opacity: 0.35;
   cursor: auto;
   pointer-events: none;
@@ -163,11 +180,26 @@
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+.swiper-portfolio-button-prev,
+.swiper-container-rtl .swiper-portfolio-button-next {
+  /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
+  background-image:  url("../images/portfolio-prev.png");
+  left: 25%;
+  right: auto;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
 .swiper-button-prev:hover,
 .swiper-container-rtl .swiper-button-next:hover,
 .swiper-blog-button-prev:hover,
 .swiper-container-rtl .swiper-blog-button-next:hover {
   background-image: url("../images/prev-hover.png");
+}
+.swiper-portfolio-button-prev:hover,
+.swiper-container-rtl .swiper-portfolio-button-next:hover {
+  background-image: url("../images/portfolio-prev-hover.png");
 }
 .swiper-button-prev.swiper-button-black,
 .swiper-container-rtl .swiper-button-next.swiper-button-black {
@@ -200,6 +232,17 @@
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 } 
+.swiper-portfolio-button-next,
+.swiper-container-rtl .swiper-portfolio-button-prev {
+  /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
+  background-image: url("../images/portfolio-next.png");
+  right: 25%;
+  left: auto;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+} 
 .swiper-button-next:hover,
 .swiper-container-rtl .swiper-button-prev:hover {
    background-image: url("../images/next-hover.png");
@@ -207,6 +250,10 @@
 .swiper-blog-button-next:hover,
 .swiper-container-rtl .swiper-blog-button-prev:hover {
    background-image: url("../images/next-hover.png");
+}
+.swiper-portfolio-button-next:hover,
+.swiper-container-rtl .swiper-portfolio-button-prev:hover {
+   background-image: url("../images/portfolio-next-hover.png");
 }
 .swiper-button-next.swiper-button-black,
 .swiper-container-rtl .swiper-button-prev.swiper-button-black {
