@@ -2277,6 +2277,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 1908, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-mobile {
+    display: none;
+  }
+  /* line 1912, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-img-bg {
+    height: 735px !important;
+    background: url("../images/it_outsoursing.jpg") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 1917, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-img-bg .it-outsoursing-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 1925, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-img-bg .it-outsoursing-desctop .it-outsoursing-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #f5a812 !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1936, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-img-bg .it-outsoursing-desctop .it-outsoursing-title:hover {
+    border-color: #fff;
+  }
+  /* line 1940, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-img-bg .it-outsoursing-desctop .it-outsoursing-title span {
+    font-weight: 700;
+  }
+  /* line 1944, ../sass/_media.scss */
+  .it-outsoursing-page .it-outsoursing-img-bg .it-outsoursing-desctop .it-outsoursing-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 1955, ../sass/_media.scss */
+  .it-outsoursing-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 1960, ../sass/_media.scss */
+  .it-outsoursing-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 1969, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 1972, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 1976, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 1983, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 1986, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 1992, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 1996, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li .web-text .serv-title,
+  .it-outsoursing-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 2000, ../sass/_media.scss */
+  .it-outsoursing-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -5053,6 +5165,134 @@ footer .desctop-footer-content {
 }
 /* line 2191, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 2204, ../sass/main_styles.scss */
+.it-outsoursing-page .it-outsoursing-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/it_outsoursing.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2213, ../sass/main_styles.scss */
+.it-outsoursing-page .it-outsoursing-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 2217, ../sass/main_styles.scss */
+.it-outsoursing-page .photo-ather-content {
+  display: none;
+}
+/* line 2220, ../sass/main_styles.scss */
+.it-outsoursing-page .it-outsoursing-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 2222, ../sass/main_styles.scss */
+.it-outsoursing-page .it-outsoursing-mobile .it-outsoursing-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #f5a812;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 2231, ../sass/main_styles.scss */
+.it-outsoursing-page .it-outsoursing-mobile .it-outsoursing-title span {
+  font-weight: 700;
+}
+/* line 2235, ../sass/main_styles.scss */
+.it-outsoursing-page .it-outsoursing-mobile .it-outsoursing-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 2245, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 2247, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 2252, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 2258, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2263, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 2265, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 2270, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 2272, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2282, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 2286, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 2288, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2297, ../sass/main_styles.scss */
+.it-outsoursing-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
