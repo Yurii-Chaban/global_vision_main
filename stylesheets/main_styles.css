@@ -2725,6 +2725,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 2320, ../sass/_media.scss */
+  .web-development-page .web-development-mobile {
+    display: none;
+  }
+  /* line 2324, ../sass/_media.scss */
+  .web-development-page .web-development-img-bg {
+    height: 735px !important;
+    background: url("../images/web_development.jpg") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 2329, ../sass/_media.scss */
+  .web-development-page .web-development-img-bg .web-development-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 2337, ../sass/_media.scss */
+  .web-development-page .web-development-img-bg .web-development-desctop .web-development-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #f37936 !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 2348, ../sass/_media.scss */
+  .web-development-page .web-development-img-bg .web-development-desctop .web-development-title:hover {
+    border-color: #fff;
+  }
+  /* line 2352, ../sass/_media.scss */
+  .web-development-page .web-development-img-bg .web-development-desctop .web-development-title span {
+    font-weight: 700;
+  }
+  /* line 2356, ../sass/_media.scss */
+  .web-development-page .web-development-img-bg .web-development-desctop .web-development-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 2367, ../sass/_media.scss */
+  .web-development-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 2372, ../sass/_media.scss */
+  .web-development-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 2381, ../sass/_media.scss */
+  .web-development-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 2384, ../sass/_media.scss */
+  .web-development-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 2388, ../sass/_media.scss */
+  .web-development-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 2395, ../sass/_media.scss */
+  .web-development-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 2398, ../sass/_media.scss */
+  .web-development-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 2404, ../sass/_media.scss */
+  .web-development-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 2408, ../sass/_media.scss */
+  .web-development-page .services-page-list li .web-text .serv-title,
+  .web-development-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 2412, ../sass/_media.scss */
+  .web-development-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -6013,6 +6125,134 @@ footer .desctop-footer-content {
 }
 /* line 2615, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 2628, ../sass/main_styles.scss */
+.web-development-page .web-development-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/web_development.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2637, ../sass/main_styles.scss */
+.web-development-page .web-development-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 2641, ../sass/main_styles.scss */
+.web-development-page .photo-ather-content {
+  display: none;
+}
+/* line 2644, ../sass/main_styles.scss */
+.web-development-page .web-development-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 2646, ../sass/main_styles.scss */
+.web-development-page .web-development-mobile .web-development-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #f37936;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 2655, ../sass/main_styles.scss */
+.web-development-page .web-development-mobile .web-development-title span {
+  font-weight: 700;
+}
+/* line 2659, ../sass/main_styles.scss */
+.web-development-page .web-development-mobile .web-development-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 2669, ../sass/main_styles.scss */
+.web-development-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 2671, ../sass/main_styles.scss */
+.web-development-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 2676, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 2682, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2687, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 2689, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 2694, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 2696, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2706, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 2710, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 2712, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2721, ../sass/main_styles.scss */
+.web-development-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
