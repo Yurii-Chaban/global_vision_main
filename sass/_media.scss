@@ -490,7 +490,7 @@
 /*-----------------------*/
 /*-----------------------*/
 	.services-section {
-		padding: 26px 0 29px;
+		padding: 8px 0 29px;
 		background: #fff;
 	    // border-bottom: 4px solid #f8f8f8;
 
@@ -557,6 +557,9 @@
 							border-color: #f37835;
 						}
 					}
+					a.active-services {
+						border-color: #f37835;
+					}
 				}
 				.services-marketing {
 					.marketing-title,
@@ -568,6 +571,9 @@
 						&:hover {
 							border-color: #26a6a5;
 						}
+					}
+					a.active-services {
+						border-color: #26a6a5;
 					}
 				}
 				.services-software {
@@ -581,6 +587,9 @@
 							border-color: #f5a812;
 						}
 					}
+					a.active-services {
+						border-color: #f5a812;
+					}
 				}
 				.services-design {
 					.design-title,
@@ -592,6 +601,9 @@
 						&:hover {
 							border-color: #e95b4d;
 						}
+					}
+					a.active-services {
+						border-color: #e95b4d;
 					}
 				}
 			}
@@ -1245,6 +1257,124 @@
 		.page-pagination-desctop {
 			display: block !important;
 			margin: 33px auto 34px !important;
+		}
+	}
+	/*---------------------------------------*/
+	/*---------------------------------------*/
+	.internet-marketing-consulting-page {
+		
+		.imc-mobile {
+			display: none;
+		}
+
+		.imc-img-bg {
+			height: 735px !important;
+			background: url('../images/imc-img-bg-desctop.png') no-repeat !important;
+			background-size: cover;
+			background-position: center !important;
+			.imc-desctop {
+				float: right;
+				display: block !important;
+				width: 50%;
+				padding: 44px 0 15px 0;
+				text-align: left;
+
+				.imc-title {
+					width: 475px !important;
+					margin-left: 32px !important;
+					color: #2ca7a7 !important;
+					font-size: 42px!important;
+					font-weight: 400;
+					line-height: 48px!important;
+					text-transform: uppercase;
+					text-decoration: none;
+					@include transition;
+
+					&:hover {
+						border-color: #fff;
+					}
+
+					span {
+						font-weight: 700;
+					}
+				}
+				.imc-description {
+					margin: 20px 0 20px 32px !important;
+					padding: 0 !important;
+					width: 453px !important;
+					font-size: 18px !important;
+					font-weight: 400;
+					line-height: 25px !important;
+					color: #5d5d5d;
+				}
+			}
+		}
+		.imc-desctop-ather-content {
+			display: block !important;
+			padding-bottom: 30px;
+			background: #fff;
+
+			.ather-title {
+				margin: 43px auto 50px;
+				text-align: center;
+				color: #2ca7a7;
+				font-size: 42px;
+				line-height: 48px;
+				text-transform: uppercase;
+				font-weight: 400;
+				span {
+					font-weight: 700;
+				}
+			}
+			.count-img {
+				display: block;
+				margin: 0 auto 40px;
+			}
+			.ather-description {
+				margin: 20px auto;
+				color: #5d5d5d;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 25px;
+			}
+		}
+
+		.services-page-list {
+			overflow: hidden;
+			margin-bottom: 32px !important;
+			li {
+				clear: both;
+				box-sizing: border-box;
+				
+				.web-bg {
+					width: 50% !important;
+					min-height: 251px !important;
+					background-size: cover !important;
+					background-position: center center !important;
+				}
+
+				.web-bg {
+					float: left;
+				}
+				.web-text {
+					float: right;
+				    padding: 75px 0 90px 0 !important;
+				    text-align: left !important;
+				}
+				/*------------*/
+				.web-text {
+					width: 50% !important;
+					height: 100% !important;
+
+					.serv-title,
+					.sign-title {
+						margin-left: 12px !important;
+					}
+					.serv-title {
+						width: auto !important;
+					}
+				}
+			}
 		}
 	}
 	/*---------------------------------------*/
