@@ -2837,6 +2837,129 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 2423, ../sass/_media.scss */
+  .web-support-page .web-support-mobile {
+    display: none;
+  }
+  /* line 2427, ../sass/_media.scss */
+  .web-support-page .web-support-img-bg {
+    height: 735px !important;
+    background: url("../images/web_support.jpg") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 2432, ../sass/_media.scss */
+  .web-support-page .web-support-img-bg .web-support-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 2440, ../sass/_media.scss */
+  .web-support-page .web-support-img-bg .web-support-desctop .web-support-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #f37936 !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 2451, ../sass/_media.scss */
+  .web-support-page .web-support-img-bg .web-support-desctop .web-support-title:hover {
+    border-color: #fff;
+  }
+  /* line 2455, ../sass/_media.scss */
+  .web-support-page .web-support-img-bg .web-support-desctop .web-support-title span {
+    font-weight: 700;
+  }
+  /* line 2459, ../sass/_media.scss */
+  .web-support-page .web-support-img-bg .web-support-desctop .web-support-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 2470, ../sass/_media.scss */
+  .web-support-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 2475, ../sass/_media.scss */
+  .web-support-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 2484, ../sass/_media.scss */
+  .web-support-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 2487, ../sass/_media.scss */
+  .web-support-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 2491, ../sass/_media.scss */
+  .web-support-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 2498, ../sass/_media.scss */
+  .web-support-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 2501, ../sass/_media.scss */
+  .web-support-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 2507, ../sass/_media.scss */
+  .web-support-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 2511, ../sass/_media.scss */
+  .web-support-page .services-page-list li .web-text .serv-title,
+  .web-support-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 2515, ../sass/_media.scss */
+  .web-support-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 2526, ../sass/_media.scss */
+  .design-page .swiper-container-design-desctop {
+    display: block !important;
+  }
+  /* line 2530, ../sass/_media.scss */
+  .design-page .swiper-container-design-mobile {
+    display: none !important;
+  }
+
+  /*---------------------------------------*/
 }
 @font-face {
   font-family: 'Corbel';
@@ -4482,14 +4605,30 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1326, ../sass/main_styles.scss */
-.design-page .swiper-container-design {
+/* line 1327, ../sass/main_styles.scss */
+.design-page .blog-content .blog-title {
+  margin: 44px auto 35px;
+  text-align: center;
+  color: black;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+/* line 1338, ../sass/main_styles.scss */
+.design-page .swiper-container-design-desctop {
+  display: none;
+}
+/* line 1342, ../sass/main_styles.scss */
+.design-page .swiper-container-design-desctop,
+.design-page .swiper-container-design-mobile {
   width: 100%;
   height: 300px;
   margin: 20px auto;
 }
-/* line 1330, ../sass/main_styles.scss */
-.design-page .swiper-container-design .swiper-slide {
+/* line 1347, ../sass/main_styles.scss */
+.design-page .swiper-container-design-desctop .swiper-slide,
+.design-page .swiper-container-design-mobile .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -4510,7 +4649,7 @@ footer .desctop-footer-content {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1353, ../sass/main_styles.scss */
+/* line 1370, ../sass/main_styles.scss */
 .blog-more-page {
   position: relative;
   width: 100%;
@@ -4520,7 +4659,7 @@ footer .desctop-footer-content {
   background-position: center;
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1357, ../sass/main_styles.scss */
+/* line 1374, ../sass/main_styles.scss */
 .blog-more-page .desctop-more,
 .blog-more-page .desctop-more-description,
 .blog-more-page .slider-container,
@@ -4528,7 +4667,7 @@ footer .desctop-footer-content {
 .blog-more-page .float-img-desctop {
   display: none;
 }
-/* line 1366, ../sass/main_styles.scss */
+/* line 1383, ../sass/main_styles.scss */
 .blog-more-page .mobile-more-header .article-name {
   margin: 12px auto 0;
   text-align: center;
@@ -4538,11 +4677,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 1374, ../sass/main_styles.scss */
+/* line 1391, ../sass/main_styles.scss */
 .blog-more-page .mobile-more-header .article-name span {
   font-weight: 700;
 }
-/* line 1378, ../sass/main_styles.scss */
+/* line 1395, ../sass/main_styles.scss */
 .blog-more-page .mobile-more-header .article-date {
   display: block;
   margin: 0 auto;
@@ -4553,34 +4692,34 @@ footer .desctop-footer-content {
   line-height: 24px;
   text-transform: uppercase;
 }
-/* line 1390, ../sass/main_styles.scss */
+/* line 1407, ../sass/main_styles.scss */
 .blog-more-page .float-img {
   width: auto;
   margin: 15px auto 0;
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 1396, ../sass/main_styles.scss */
+/* line 1413, ../sass/main_styles.scss */
 .blog-more-page .float-img img {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
-/* line 1404, ../sass/main_styles.scss */
+/* line 1421, ../sass/main_styles.scss */
 .blog-more-page .mobile-more-content {
   width: 100%;
   margin: 18px auto;
   box-sizing: border-box;
 }
-/* line 1408, ../sass/main_styles.scss */
+/* line 1425, ../sass/main_styles.scss */
 .blog-more-page .mobile-more-content .article-descroption {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 1416, ../sass/main_styles.scss */
+/* line 1433, ../sass/main_styles.scss */
 .blog-more-page .wideoWrapper {
   max-width: 982px;
   max-height: 529px;
@@ -4601,7 +4740,7 @@ footer .desctop-footer-content {
   width: 100%;
   height: 100%;
 }
-/* line 1420, ../sass/main_styles.scss */
+/* line 1437, ../sass/main_styles.scss */
 .blog-more-page .back-button {
   float: right;
   margin: 0 0 18px;
@@ -4611,14 +4750,14 @@ footer .desctop-footer-content {
   line-height: 22px;
   text-decoration: none;
 }
-/* line 1428, ../sass/main_styles.scss */
+/* line 1445, ../sass/main_styles.scss */
 .blog-more-page .back-button:hover {
   text-decoration: underline;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1435, ../sass/main_styles.scss */
+/* line 1452, ../sass/main_styles.scss */
 .testimonials-page {
   position: relative;
   width: 100%;
@@ -4627,13 +4766,13 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1437, ../sass/main_styles.scss */
+/* line 1454, ../sass/main_styles.scss */
 .testimonials-page .testimonials-content {
   display: none;
   background: rgba(248, 248, 248, 0.9);
   padding: 37px 0 17px 26px;
 }
-/* line 1441, ../sass/main_styles.scss */
+/* line 1458, ../sass/main_styles.scss */
 .testimonials-page .testimonials-content .testimonials-title {
   display: none;
   margin: 38px auto 34px;
@@ -4644,7 +4783,7 @@ footer .desctop-footer-content {
   line-height: 60px;
   text-transform: uppercase;
 }
-/* line 1452, ../sass/main_styles.scss */
+/* line 1469, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-desctop {
   display: none;
   position: relative;
@@ -4654,7 +4793,7 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1456, ../sass/main_styles.scss */
+/* line 1473, ../sass/main_styles.scss */
 .testimonials-page .page-pagination-desctop {
   position: relative;
   width: 100%;
@@ -4693,7 +4832,7 @@ footer .desctop-footer-content {
 .testimonials-page .page-pagination-desctop .pagination-list li a:hover {
   color: #f37835;
 }
-/* line 1460, ../sass/main_styles.scss */
+/* line 1477, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile {
   position: relative;
   width: 100%;
@@ -4702,13 +4841,13 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1462, ../sass/main_styles.scss */
+/* line 1479, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li {
   display: block;
   width: 100%;
   /*------------*/
 }
-/* line 1466, ../sass/main_styles.scss */
+/* line 1483, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .first-article,
 .testimonials-page .testimonials-page-list-mobile li .second-article,
 .testimonials-page .testimonials-page-list-mobile li .third-article,
@@ -4718,36 +4857,36 @@ footer .desctop-footer-content {
   height: 100%;
   box-sizing: border-box;
 }
-/* line 1476, ../sass/main_styles.scss */
+/* line 1493, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .first-article {
   background: url("../images/testimonials-photo-mobile-1.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1481, ../sass/main_styles.scss */
+/* line 1498, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .second-article {
   background: url("../images/testimonials-photo-mobile-2.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1486, ../sass/main_styles.scss */
+/* line 1503, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .third-article {
   background: url("../images/testimonials-photo-mobile-3.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1491, ../sass/main_styles.scss */
+/* line 1508, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .fourth-article {
   background: url("../images/testimonials-photo-mobile-4.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1497, ../sass/main_styles.scss */
+/* line 1514, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block {
   background: rgba(248, 248, 248, 0.9);
   text-align: center;
 }
-/* line 1500, ../sass/main_styles.scss */
+/* line 1517, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block .article-title {
   margin: 16px auto 0;
   text-align: center;
@@ -4758,11 +4897,11 @@ footer .desctop-footer-content {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 1510, ../sass/main_styles.scss */
+/* line 1527, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block .article-title span {
   font-weight: 700;
 }
-/* line 1514, ../sass/main_styles.scss */
+/* line 1531, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block .article-date {
   margin: 0 auto 18px;
   text-align: center;
@@ -4772,7 +4911,7 @@ footer .desctop-footer-content {
   line-height: 34px;
   text-transform: uppercase;
 }
-/* line 1523, ../sass/main_styles.scss */
+/* line 1540, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block .article-content {
   position: relative;
   width: 197px;
@@ -4783,7 +4922,7 @@ footer .desctop-footer-content {
   color: #5d5d5d;
   text-align: justify;
 }
-/* line 1532, ../sass/main_styles.scss */
+/* line 1549, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block .article-content:before {
   position: absolute;
   top: -5px;
@@ -4796,7 +4935,7 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 1544, ../sass/main_styles.scss */
+/* line 1561, ../sass/main_styles.scss */
 .testimonials-page .testimonials-page-list-mobile li .full-block .article-content:after {
   position: absolute;
   bottom: -20px;
@@ -4809,7 +4948,7 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 1560, ../sass/main_styles.scss */
+/* line 1577, ../sass/main_styles.scss */
 .testimonials-page .page-pagination-mobile {
   position: relative;
   width: 100%;
@@ -4850,7 +4989,7 @@ footer .desctop-footer-content {
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1568, ../sass/main_styles.scss */
+/* line 1585, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-img-bg {
   width: 100%;
   height: 173px;
@@ -4860,20 +4999,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 1577, ../sass/main_styles.scss */
+/* line 1594, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 1581, ../sass/main_styles.scss */
+/* line 1598, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-desctop-ather-content {
   display: none;
 }
-/* line 1584, ../sass/main_styles.scss */
+/* line 1601, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1586, ../sass/main_styles.scss */
+/* line 1603, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-mobile .imc-title {
   margin: 22px auto 0;
   text-align: center;
@@ -4883,11 +5022,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 1595, ../sass/main_styles.scss */
+/* line 1612, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-mobile .imc-title span {
   font-weight: 700;
 }
-/* line 1599, ../sass/main_styles.scss */
+/* line 1616, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .imc-mobile .imc-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -4896,7 +5035,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 1609, ../sass/main_styles.scss */
+/* line 1626, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list {
   position: relative;
   width: 100%;
@@ -4905,38 +5044,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1611, ../sass/main_styles.scss */
+/* line 1628, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 1616, ../sass/main_styles.scss */
+/* line 1633, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 1622, ../sass/main_styles.scss */
+/* line 1639, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1627, ../sass/main_styles.scss */
+/* line 1644, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 1629, ../sass/main_styles.scss */
+/* line 1646, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 1634, ../sass/main_styles.scss */
+/* line 1651, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 1636, ../sass/main_styles.scss */
+/* line 1653, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -4950,15 +5089,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1646, ../sass/main_styles.scss */
+/* line 1663, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 1650, ../sass/main_styles.scss */
+/* line 1667, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 1652, ../sass/main_styles.scss */
+/* line 1669, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -4971,14 +5110,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1661, ../sass/main_styles.scss */
+/* line 1678, ../sass/main_styles.scss */
 .internet-marketing-consulting-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1674, ../sass/main_styles.scss */
+/* line 1691, ../sass/main_styles.scss */
 .photography-page .photography-img-bg {
   width: 100%;
   height: 173px;
@@ -4988,20 +5127,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 1683, ../sass/main_styles.scss */
+/* line 1700, ../sass/main_styles.scss */
 .photography-page .photography-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 1687, ../sass/main_styles.scss */
+/* line 1704, ../sass/main_styles.scss */
 .photography-page .photo-ather-content {
   display: none;
 }
-/* line 1690, ../sass/main_styles.scss */
+/* line 1707, ../sass/main_styles.scss */
 .photography-page .photography-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1692, ../sass/main_styles.scss */
+/* line 1709, ../sass/main_styles.scss */
 .photography-page .photography-mobile .photography-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5011,11 +5150,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 1701, ../sass/main_styles.scss */
+/* line 1718, ../sass/main_styles.scss */
 .photography-page .photography-mobile .photography-title span {
   font-weight: 700;
 }
-/* line 1705, ../sass/main_styles.scss */
+/* line 1722, ../sass/main_styles.scss */
 .photography-page .photography-mobile .photography-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5024,7 +5163,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 1715, ../sass/main_styles.scss */
+/* line 1732, ../sass/main_styles.scss */
 .photography-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5033,38 +5172,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1717, ../sass/main_styles.scss */
+/* line 1734, ../sass/main_styles.scss */
 .photography-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 1722, ../sass/main_styles.scss */
+/* line 1739, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 1728, ../sass/main_styles.scss */
+/* line 1745, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1733, ../sass/main_styles.scss */
+/* line 1750, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 1735, ../sass/main_styles.scss */
+/* line 1752, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 1740, ../sass/main_styles.scss */
+/* line 1757, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 1742, ../sass/main_styles.scss */
+/* line 1759, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5078,15 +5217,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1752, ../sass/main_styles.scss */
+/* line 1769, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 1756, ../sass/main_styles.scss */
+/* line 1773, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 1758, ../sass/main_styles.scss */
+/* line 1775, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5099,14 +5238,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1767, ../sass/main_styles.scss */
+/* line 1784, ../sass/main_styles.scss */
 .photography-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1780, ../sass/main_styles.scss */
+/* line 1797, ../sass/main_styles.scss */
 .ready-to-go-page .ready-to-go-img-bg {
   width: 100%;
   height: 173px;
@@ -5116,20 +5255,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 1789, ../sass/main_styles.scss */
+/* line 1806, ../sass/main_styles.scss */
 .ready-to-go-page .ready-to-go-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 1793, ../sass/main_styles.scss */
+/* line 1810, ../sass/main_styles.scss */
 .ready-to-go-page .photo-ather-content {
   display: none;
 }
-/* line 1796, ../sass/main_styles.scss */
+/* line 1813, ../sass/main_styles.scss */
 .ready-to-go-page .ready-to-go-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1798, ../sass/main_styles.scss */
+/* line 1815, ../sass/main_styles.scss */
 .ready-to-go-page .ready-to-go-mobile .ready-to-go-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5139,11 +5278,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 1807, ../sass/main_styles.scss */
+/* line 1824, ../sass/main_styles.scss */
 .ready-to-go-page .ready-to-go-mobile .ready-to-go-title span {
   font-weight: 700;
 }
-/* line 1811, ../sass/main_styles.scss */
+/* line 1828, ../sass/main_styles.scss */
 .ready-to-go-page .ready-to-go-mobile .ready-to-go-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5152,7 +5291,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 1821, ../sass/main_styles.scss */
+/* line 1838, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5161,38 +5300,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1823, ../sass/main_styles.scss */
+/* line 1840, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 1828, ../sass/main_styles.scss */
+/* line 1845, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 1834, ../sass/main_styles.scss */
+/* line 1851, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1839, ../sass/main_styles.scss */
+/* line 1856, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 1841, ../sass/main_styles.scss */
+/* line 1858, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 1846, ../sass/main_styles.scss */
+/* line 1863, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 1848, ../sass/main_styles.scss */
+/* line 1865, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5206,15 +5345,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1858, ../sass/main_styles.scss */
+/* line 1875, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 1862, ../sass/main_styles.scss */
+/* line 1879, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 1864, ../sass/main_styles.scss */
+/* line 1881, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5227,14 +5366,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1873, ../sass/main_styles.scss */
+/* line 1890, ../sass/main_styles.scss */
 .ready-to-go-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1886, ../sass/main_styles.scss */
+/* line 1903, ../sass/main_styles.scss */
 .alternative-solutions-page .alternative-solutions-img-bg {
   width: 100%;
   height: 173px;
@@ -5244,20 +5383,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 1895, ../sass/main_styles.scss */
+/* line 1912, ../sass/main_styles.scss */
 .alternative-solutions-page .alternative-solutions-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 1899, ../sass/main_styles.scss */
+/* line 1916, ../sass/main_styles.scss */
 .alternative-solutions-page .photo-ather-content {
   display: none;
 }
-/* line 1902, ../sass/main_styles.scss */
+/* line 1919, ../sass/main_styles.scss */
 .alternative-solutions-page .alternative-solutions-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 1904, ../sass/main_styles.scss */
+/* line 1921, ../sass/main_styles.scss */
 .alternative-solutions-page .alternative-solutions-mobile .alternative-solutions-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5267,11 +5406,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 1913, ../sass/main_styles.scss */
+/* line 1930, ../sass/main_styles.scss */
 .alternative-solutions-page .alternative-solutions-mobile .alternative-solutions-title span {
   font-weight: 700;
 }
-/* line 1917, ../sass/main_styles.scss */
+/* line 1934, ../sass/main_styles.scss */
 .alternative-solutions-page .alternative-solutions-mobile .alternative-solutions-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5280,7 +5419,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 1927, ../sass/main_styles.scss */
+/* line 1944, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5289,38 +5428,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 1929, ../sass/main_styles.scss */
+/* line 1946, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 1934, ../sass/main_styles.scss */
+/* line 1951, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 1940, ../sass/main_styles.scss */
+/* line 1957, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 1945, ../sass/main_styles.scss */
+/* line 1962, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 1947, ../sass/main_styles.scss */
+/* line 1964, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 1952, ../sass/main_styles.scss */
+/* line 1969, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 1954, ../sass/main_styles.scss */
+/* line 1971, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5334,15 +5473,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1964, ../sass/main_styles.scss */
+/* line 1981, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 1968, ../sass/main_styles.scss */
+/* line 1985, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 1970, ../sass/main_styles.scss */
+/* line 1987, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5355,14 +5494,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1979, ../sass/main_styles.scss */
+/* line 1996, ../sass/main_styles.scss */
 .alternative-solutions-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 1992, ../sass/main_styles.scss */
+/* line 2009, ../sass/main_styles.scss */
 .corporate-identity-page .corporate-identity-img-bg {
   width: 100%;
   height: 173px;
@@ -5372,20 +5511,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2001, ../sass/main_styles.scss */
+/* line 2018, ../sass/main_styles.scss */
 .corporate-identity-page .corporate-identity-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2005, ../sass/main_styles.scss */
+/* line 2022, ../sass/main_styles.scss */
 .corporate-identity-page .photo-ather-content {
   display: none;
 }
-/* line 2008, ../sass/main_styles.scss */
+/* line 2025, ../sass/main_styles.scss */
 .corporate-identity-page .corporate-identity-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2010, ../sass/main_styles.scss */
+/* line 2027, ../sass/main_styles.scss */
 .corporate-identity-page .corporate-identity-mobile .corporate-identity-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5395,11 +5534,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2019, ../sass/main_styles.scss */
+/* line 2036, ../sass/main_styles.scss */
 .corporate-identity-page .corporate-identity-mobile .corporate-identity-title span {
   font-weight: 700;
 }
-/* line 2023, ../sass/main_styles.scss */
+/* line 2040, ../sass/main_styles.scss */
 .corporate-identity-page .corporate-identity-mobile .corporate-identity-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5408,7 +5547,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2033, ../sass/main_styles.scss */
+/* line 2050, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5417,38 +5556,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2035, ../sass/main_styles.scss */
+/* line 2052, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2040, ../sass/main_styles.scss */
+/* line 2057, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2046, ../sass/main_styles.scss */
+/* line 2063, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2051, ../sass/main_styles.scss */
+/* line 2068, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2053, ../sass/main_styles.scss */
+/* line 2070, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2058, ../sass/main_styles.scss */
+/* line 2075, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2060, ../sass/main_styles.scss */
+/* line 2077, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5462,15 +5601,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2070, ../sass/main_styles.scss */
+/* line 2087, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2074, ../sass/main_styles.scss */
+/* line 2091, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2076, ../sass/main_styles.scss */
+/* line 2093, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5483,14 +5622,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2085, ../sass/main_styles.scss */
+/* line 2102, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 2098, ../sass/main_styles.scss */
+/* line 2115, ../sass/main_styles.scss */
 .graphic-design-page .graphic-design-img-bg {
   width: 100%;
   height: 173px;
@@ -5500,20 +5639,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2107, ../sass/main_styles.scss */
+/* line 2124, ../sass/main_styles.scss */
 .graphic-design-page .graphic-design-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2111, ../sass/main_styles.scss */
+/* line 2128, ../sass/main_styles.scss */
 .graphic-design-page .photo-ather-content {
   display: none;
 }
-/* line 2114, ../sass/main_styles.scss */
+/* line 2131, ../sass/main_styles.scss */
 .graphic-design-page .graphic-design-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2116, ../sass/main_styles.scss */
+/* line 2133, ../sass/main_styles.scss */
 .graphic-design-page .graphic-design-mobile .graphic-design-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5523,11 +5662,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2125, ../sass/main_styles.scss */
+/* line 2142, ../sass/main_styles.scss */
 .graphic-design-page .graphic-design-mobile .graphic-design-title span {
   font-weight: 700;
 }
-/* line 2129, ../sass/main_styles.scss */
+/* line 2146, ../sass/main_styles.scss */
 .graphic-design-page .graphic-design-mobile .graphic-design-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5536,7 +5675,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2139, ../sass/main_styles.scss */
+/* line 2156, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5545,38 +5684,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2141, ../sass/main_styles.scss */
+/* line 2158, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2146, ../sass/main_styles.scss */
+/* line 2163, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2152, ../sass/main_styles.scss */
+/* line 2169, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2157, ../sass/main_styles.scss */
+/* line 2174, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2159, ../sass/main_styles.scss */
+/* line 2176, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2164, ../sass/main_styles.scss */
+/* line 2181, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2166, ../sass/main_styles.scss */
+/* line 2183, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5590,15 +5729,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2176, ../sass/main_styles.scss */
+/* line 2193, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2180, ../sass/main_styles.scss */
+/* line 2197, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2182, ../sass/main_styles.scss */
+/* line 2199, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5611,14 +5750,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2191, ../sass/main_styles.scss */
+/* line 2208, ../sass/main_styles.scss */
 .graphic-design-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 2204, ../sass/main_styles.scss */
+/* line 2221, ../sass/main_styles.scss */
 .it-outsoursing-page .it-outsoursing-img-bg {
   width: 100%;
   height: 173px;
@@ -5628,20 +5767,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2213, ../sass/main_styles.scss */
+/* line 2230, ../sass/main_styles.scss */
 .it-outsoursing-page .it-outsoursing-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2217, ../sass/main_styles.scss */
+/* line 2234, ../sass/main_styles.scss */
 .it-outsoursing-page .photo-ather-content {
   display: none;
 }
-/* line 2220, ../sass/main_styles.scss */
+/* line 2237, ../sass/main_styles.scss */
 .it-outsoursing-page .it-outsoursing-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2222, ../sass/main_styles.scss */
+/* line 2239, ../sass/main_styles.scss */
 .it-outsoursing-page .it-outsoursing-mobile .it-outsoursing-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5651,11 +5790,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2231, ../sass/main_styles.scss */
+/* line 2248, ../sass/main_styles.scss */
 .it-outsoursing-page .it-outsoursing-mobile .it-outsoursing-title span {
   font-weight: 700;
 }
-/* line 2235, ../sass/main_styles.scss */
+/* line 2252, ../sass/main_styles.scss */
 .it-outsoursing-page .it-outsoursing-mobile .it-outsoursing-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5664,7 +5803,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2245, ../sass/main_styles.scss */
+/* line 2262, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5673,38 +5812,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2247, ../sass/main_styles.scss */
+/* line 2264, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2252, ../sass/main_styles.scss */
+/* line 2269, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2258, ../sass/main_styles.scss */
+/* line 2275, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2263, ../sass/main_styles.scss */
+/* line 2280, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2265, ../sass/main_styles.scss */
+/* line 2282, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2270, ../sass/main_styles.scss */
+/* line 2287, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2272, ../sass/main_styles.scss */
+/* line 2289, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5718,15 +5857,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2282, ../sass/main_styles.scss */
+/* line 2299, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2286, ../sass/main_styles.scss */
+/* line 2303, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2288, ../sass/main_styles.scss */
+/* line 2305, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5739,14 +5878,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2297, ../sass/main_styles.scss */
+/* line 2314, ../sass/main_styles.scss */
 .it-outsoursing-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 2310, ../sass/main_styles.scss */
+/* line 2327, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .pay-per-click-marketing-img-bg {
   width: 100%;
   height: 173px;
@@ -5756,20 +5895,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2319, ../sass/main_styles.scss */
+/* line 2336, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .pay-per-click-marketing-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2323, ../sass/main_styles.scss */
+/* line 2340, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .photo-ather-content {
   display: none;
 }
-/* line 2326, ../sass/main_styles.scss */
+/* line 2343, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .pay-per-click-marketing-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2328, ../sass/main_styles.scss */
+/* line 2345, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .pay-per-click-marketing-mobile .pay-per-click-marketing-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5779,11 +5918,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2337, ../sass/main_styles.scss */
+/* line 2354, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .pay-per-click-marketing-mobile .pay-per-click-marketing-title span {
   font-weight: 700;
 }
-/* line 2341, ../sass/main_styles.scss */
+/* line 2358, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .pay-per-click-marketing-mobile .pay-per-click-marketing-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5792,7 +5931,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2351, ../sass/main_styles.scss */
+/* line 2368, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5801,38 +5940,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2353, ../sass/main_styles.scss */
+/* line 2370, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2358, ../sass/main_styles.scss */
+/* line 2375, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2364, ../sass/main_styles.scss */
+/* line 2381, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2369, ../sass/main_styles.scss */
+/* line 2386, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2371, ../sass/main_styles.scss */
+/* line 2388, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2376, ../sass/main_styles.scss */
+/* line 2393, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2378, ../sass/main_styles.scss */
+/* line 2395, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5846,15 +5985,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2388, ../sass/main_styles.scss */
+/* line 2405, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2392, ../sass/main_styles.scss */
+/* line 2409, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2394, ../sass/main_styles.scss */
+/* line 2411, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5867,14 +6006,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2403, ../sass/main_styles.scss */
+/* line 2420, ../sass/main_styles.scss */
 .pay-per-click-marketing-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 2416, ../sass/main_styles.scss */
+/* line 2433, ../sass/main_styles.scss */
 .seo-page .seo-img-bg {
   width: 100%;
   height: 173px;
@@ -5884,20 +6023,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2425, ../sass/main_styles.scss */
+/* line 2442, ../sass/main_styles.scss */
 .seo-page .seo-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2429, ../sass/main_styles.scss */
+/* line 2446, ../sass/main_styles.scss */
 .seo-page .photo-ather-content {
   display: none;
 }
-/* line 2432, ../sass/main_styles.scss */
+/* line 2449, ../sass/main_styles.scss */
 .seo-page .seo-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2434, ../sass/main_styles.scss */
+/* line 2451, ../sass/main_styles.scss */
 .seo-page .seo-mobile .seo-title {
   margin: 22px auto 0;
   text-align: center;
@@ -5907,11 +6046,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2443, ../sass/main_styles.scss */
+/* line 2460, ../sass/main_styles.scss */
 .seo-page .seo-mobile .seo-title span {
   font-weight: 700;
 }
-/* line 2447, ../sass/main_styles.scss */
+/* line 2464, ../sass/main_styles.scss */
 .seo-page .seo-mobile .seo-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -5920,7 +6059,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2457, ../sass/main_styles.scss */
+/* line 2474, ../sass/main_styles.scss */
 .seo-page .services-page-list {
   position: relative;
   width: 100%;
@@ -5929,38 +6068,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2459, ../sass/main_styles.scss */
+/* line 2476, ../sass/main_styles.scss */
 .seo-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2464, ../sass/main_styles.scss */
+/* line 2481, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2470, ../sass/main_styles.scss */
+/* line 2487, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2475, ../sass/main_styles.scss */
+/* line 2492, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2477, ../sass/main_styles.scss */
+/* line 2494, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2482, ../sass/main_styles.scss */
+/* line 2499, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2484, ../sass/main_styles.scss */
+/* line 2501, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -5974,15 +6113,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2494, ../sass/main_styles.scss */
+/* line 2511, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2498, ../sass/main_styles.scss */
+/* line 2515, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2500, ../sass/main_styles.scss */
+/* line 2517, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -5995,14 +6134,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2509, ../sass/main_styles.scss */
+/* line 2526, ../sass/main_styles.scss */
 .seo-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 2522, ../sass/main_styles.scss */
+/* line 2539, ../sass/main_styles.scss */
 .software-development-page .software-development-img-bg {
   width: 100%;
   height: 173px;
@@ -6012,20 +6151,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2531, ../sass/main_styles.scss */
+/* line 2548, ../sass/main_styles.scss */
 .software-development-page .software-development-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2535, ../sass/main_styles.scss */
+/* line 2552, ../sass/main_styles.scss */
 .software-development-page .photo-ather-content {
   display: none;
 }
-/* line 2538, ../sass/main_styles.scss */
+/* line 2555, ../sass/main_styles.scss */
 .software-development-page .software-development-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2540, ../sass/main_styles.scss */
+/* line 2557, ../sass/main_styles.scss */
 .software-development-page .software-development-mobile .software-development-title {
   margin: 22px auto 0;
   text-align: center;
@@ -6035,11 +6174,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2549, ../sass/main_styles.scss */
+/* line 2566, ../sass/main_styles.scss */
 .software-development-page .software-development-mobile .software-development-title span {
   font-weight: 700;
 }
-/* line 2553, ../sass/main_styles.scss */
+/* line 2570, ../sass/main_styles.scss */
 .software-development-page .software-development-mobile .software-development-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -6048,7 +6187,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2563, ../sass/main_styles.scss */
+/* line 2580, ../sass/main_styles.scss */
 .software-development-page .services-page-list {
   position: relative;
   width: 100%;
@@ -6057,38 +6196,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2565, ../sass/main_styles.scss */
+/* line 2582, ../sass/main_styles.scss */
 .software-development-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2570, ../sass/main_styles.scss */
+/* line 2587, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2576, ../sass/main_styles.scss */
+/* line 2593, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2581, ../sass/main_styles.scss */
+/* line 2598, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2583, ../sass/main_styles.scss */
+/* line 2600, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2588, ../sass/main_styles.scss */
+/* line 2605, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2590, ../sass/main_styles.scss */
+/* line 2607, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -6102,15 +6241,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2600, ../sass/main_styles.scss */
+/* line 2617, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2604, ../sass/main_styles.scss */
+/* line 2621, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2606, ../sass/main_styles.scss */
+/* line 2623, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -6123,14 +6262,14 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2615, ../sass/main_styles.scss */
+/* line 2632, ../sass/main_styles.scss */
 .software-development-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
 /*---------------------------------------*/
 /*---------------------------------------*/
-/* line 2628, ../sass/main_styles.scss */
+/* line 2645, ../sass/main_styles.scss */
 .web-development-page .web-development-img-bg {
   width: 100%;
   height: 173px;
@@ -6140,20 +6279,20 @@ footer .desctop-footer-content {
   background-size: cover;
   background-position: center center;
 }
-/* line 2637, ../sass/main_styles.scss */
+/* line 2654, ../sass/main_styles.scss */
 .web-development-page .web-development-desctop {
   background: rgba(248, 248, 248, 0.9);
   display: none;
 }
-/* line 2641, ../sass/main_styles.scss */
+/* line 2658, ../sass/main_styles.scss */
 .web-development-page .photo-ather-content {
   display: none;
 }
-/* line 2644, ../sass/main_styles.scss */
+/* line 2661, ../sass/main_styles.scss */
 .web-development-page .web-development-mobile {
   background: rgba(248, 248, 248, 0.9);
 }
-/* line 2646, ../sass/main_styles.scss */
+/* line 2663, ../sass/main_styles.scss */
 .web-development-page .web-development-mobile .web-development-title {
   margin: 22px auto 0;
   text-align: center;
@@ -6163,11 +6302,11 @@ footer .desctop-footer-content {
   text-transform: uppercase;
   font-weight: 400;
 }
-/* line 2655, ../sass/main_styles.scss */
+/* line 2672, ../sass/main_styles.scss */
 .web-development-page .web-development-mobile .web-development-title span {
   font-weight: 700;
 }
-/* line 2659, ../sass/main_styles.scss */
+/* line 2676, ../sass/main_styles.scss */
 .web-development-page .web-development-mobile .web-development-description {
   margin: 20px auto;
   padding: 0 15px;
@@ -6176,7 +6315,7 @@ footer .desctop-footer-content {
   line-height: 25px;
   color: #5d5d5d;
 }
-/* line 2669, ../sass/main_styles.scss */
+/* line 2686, ../sass/main_styles.scss */
 .web-development-page .services-page-list {
   position: relative;
   width: 100%;
@@ -6185,38 +6324,38 @@ footer .desctop-footer-content {
   background-size: contain;
   background-position: center;
 }
-/* line 2671, ../sass/main_styles.scss */
+/* line 2688, ../sass/main_styles.scss */
 .web-development-page .services-page-list li {
   display: block;
   width: 100%;
   border-bottom: 12px solid #fff;
   /*------------*/
 }
-/* line 2676, ../sass/main_styles.scss */
+/* line 2693, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-bg {
   width: 100%;
   min-height: 130px;
   box-sizing: border-box;
 }
-/* line 2682, ../sass/main_styles.scss */
+/* line 2699, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-bg {
   background: url("../images/web-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2687, ../sass/main_styles.scss */
+/* line 2704, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text {
   background-color: #f37835;
 }
-/* line 2689, ../sass/main_styles.scss */
+/* line 2706, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text .serv-title {
   border-bottom: 2px solid #f37835;
 }
-/* line 2694, ../sass/main_styles.scss */
+/* line 2711, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text {
   text-align: center;
 }
-/* line 2696, ../sass/main_styles.scss */
+/* line 2713, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text .serv-title {
   width: auto;
   color: white;
@@ -6230,15 +6369,15 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2706, ../sass/main_styles.scss */
+/* line 2723, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text .serv-title:hover {
   border-color: #fff;
 }
-/* line 2710, ../sass/main_styles.scss */
+/* line 2727, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text .sign-title {
   margin: 5px auto;
 }
-/* line 2712, ../sass/main_styles.scss */
+/* line 2729, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text .sign-title a {
   width: auto;
   color: white;
@@ -6251,8 +6390,136 @@ footer .desctop-footer-content {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 2721, ../sass/main_styles.scss */
+/* line 2738, ../sass/main_styles.scss */
 .web-development-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 2751, ../sass/main_styles.scss */
+.web-support-page .web-support-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/web_support.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2760, ../sass/main_styles.scss */
+.web-support-page .web-support-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 2764, ../sass/main_styles.scss */
+.web-support-page .photo-ather-content {
+  display: none;
+}
+/* line 2767, ../sass/main_styles.scss */
+.web-support-page .web-support-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 2769, ../sass/main_styles.scss */
+.web-support-page .web-support-mobile .web-support-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #f37936;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 2778, ../sass/main_styles.scss */
+.web-support-page .web-support-mobile .web-support-title span {
+  font-weight: 700;
+}
+/* line 2782, ../sass/main_styles.scss */
+.web-support-page .web-support-mobile .web-support-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 2792, ../sass/main_styles.scss */
+.web-support-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 2794, ../sass/main_styles.scss */
+.web-support-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 2799, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 2805, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2810, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 2812, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 2817, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 2819, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2829, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 2833, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 2835, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2844, ../sass/main_styles.scss */
+.web-support-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 

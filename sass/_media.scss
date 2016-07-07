@@ -2417,4 +2417,119 @@
 		}
 	}
 	/*---------------------------------------*/
+	/*---------------------------------------*/
+	.web-support-page {
+		
+		.web-support-mobile {
+			display: none;
+		}
+
+		.web-support-img-bg {
+			height: 735px !important;
+			background: url('../images/web_support.jpg') no-repeat !important;
+			background-size: cover;
+			background-position: center !important;
+			.web-support-desctop {
+				float: right;
+				display: block !important;
+				width: 50%;
+				min-height: 676px;
+				padding: 44px 0 15px 0;
+				text-align: left;
+
+				.web-support-title {
+					width: 475px !important;
+					margin-left: 32px !important;
+					color: #f37936 !important;
+					font-size: 42px!important;
+					font-weight: 400;
+					line-height: 48px!important;
+					text-transform: uppercase;
+					text-decoration: none;
+					@include transition;
+
+					&:hover {
+						border-color: #fff;
+					}
+
+					span {
+						font-weight: 700;
+					}
+				}
+				.web-support-description {
+					margin: 20px 0 20px 32px !important;
+					padding: 0 !important;
+					width: 453px !important;
+					font-size: 18px !important;
+					font-weight: 400;
+					line-height: 25px !important;
+					color: #5d5d5d;
+				}
+			}
+		}
+		.photo-ather-content {
+			display: block !important;
+			padding: 30px 0;
+			background: #fff;
+
+			.ather-description {
+				margin: 20px auto;
+				color: #5d5d5d;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 25px;
+			}
+		}
+
+		.services-page-list {
+			overflow: hidden;
+			margin-bottom: 32px !important;
+			li {
+				clear: both;
+				box-sizing: border-box;
+				
+				.web-bg {
+					width: 50% !important;
+					min-height: 251px !important;
+					background-size: cover !important;
+					background-position: center center !important;
+				}
+
+				.web-bg {
+					float: left;
+				}
+				.web-text {
+					float: right;
+				    padding: 75px 0 90px 0 !important;
+				    text-align: left !important;
+				}
+				/*------------*/
+				.web-text {
+					width: 50% !important;
+					height: 100% !important;
+
+					.serv-title,
+					.sign-title {
+						margin-left: 12px !important;
+					}
+					.serv-title {
+						width: auto !important;
+					}
+				}
+			}
+		}
+	}
+	/*---------------------------------------*/
+	/*---------------------------------------*/
+	.design-page {
+
+		.swiper-container-design-desctop {
+			display: block !important;
+		}
+
+		.swiper-container-design-mobile {
+			display: none !important;
+		}
+	}
+	/*---------------------------------------*/
 }
