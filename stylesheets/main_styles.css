@@ -1966,7 +1966,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .alternative-solutions-page .alternative-solutions-img-bg .alternative-solutions-desctop .alternative-solutions-title {
     width: 475px !important;
     margin-left: 32px !important;
-    color: #f37936 !important;
+    color: #f5a812 !important;
     font-size: 42px !important;
     font-weight: 400;
     line-height: 48px !important;
@@ -2078,7 +2078,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .corporate-identity-page .corporate-identity-img-bg .corporate-identity-desctop .corporate-identity-title {
     width: 475px !important;
     margin-left: 32px !important;
-    color: #f37936 !important;
+    color: #e95b4d !important;
     font-size: 42px !important;
     font-weight: 400;
     line-height: 48px !important;
@@ -2161,6 +2161,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   /* line 1794, ../sass/_media.scss */
   .corporate-identity-page .services-page-list li .web-text .serv-title {
+    width: auto !important;
+  }
+
+  /*---------------------------------------*/
+  /*---------------------------------------*/
+  /* line 1805, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-mobile {
+    display: none;
+  }
+  /* line 1809, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-img-bg {
+    height: 735px !important;
+    background: url("../images/graphic_design.jpg") no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  /* line 1814, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-img-bg .graphic-design-desctop {
+    float: right;
+    display: block !important;
+    width: 50%;
+    min-height: 676px;
+    padding: 44px 0 15px 0;
+    text-align: left;
+  }
+  /* line 1822, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-img-bg .graphic-design-desctop .graphic-design-title {
+    width: 475px !important;
+    margin-left: 32px !important;
+    color: #e95b4d !important;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 48px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1833, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-img-bg .graphic-design-desctop .graphic-design-title:hover {
+    border-color: #fff;
+  }
+  /* line 1837, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-img-bg .graphic-design-desctop .graphic-design-title span {
+    font-weight: 700;
+  }
+  /* line 1841, ../sass/_media.scss */
+  .graphic-design-page .graphic-design-img-bg .graphic-design-desctop .graphic-design-description {
+    margin: 20px 0 20px 32px !important;
+    padding: 0 !important;
+    width: 453px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+    color: #5d5d5d;
+  }
+  /* line 1852, ../sass/_media.scss */
+  .graphic-design-page .photo-ather-content {
+    display: block !important;
+    padding: 30px 0;
+    background: #fff;
+  }
+  /* line 1857, ../sass/_media.scss */
+  .graphic-design-page .photo-ather-content .ather-description {
+    margin: 20px auto;
+    color: #5d5d5d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 1866, ../sass/_media.scss */
+  .graphic-design-page .services-page-list {
+    overflow: hidden;
+    margin-bottom: 32px !important;
+  }
+  /* line 1869, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li {
+    clear: both;
+    box-sizing: border-box;
+    /*------------*/
+  }
+  /* line 1873, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li .web-bg {
+    width: 50% !important;
+    min-height: 251px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  /* line 1880, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li .web-bg {
+    float: left;
+  }
+  /* line 1883, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li .web-text {
+    float: right;
+    padding: 75px 0 90px 0 !important;
+    text-align: left !important;
+  }
+  /* line 1889, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li .web-text {
+    width: 50% !important;
+    height: 100% !important;
+  }
+  /* line 1893, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li .web-text .serv-title,
+  .graphic-design-page .services-page-list li .web-text .sign-title {
+    margin-left: 12px !important;
+  }
+  /* line 1897, ../sass/_media.scss */
+  .graphic-design-page .services-page-list li .web-text .serv-title {
     width: auto !important;
   }
 
@@ -4589,7 +4701,7 @@ footer .desctop-footer-content {
 .alternative-solutions-page .alternative-solutions-mobile .alternative-solutions-title {
   margin: 22px auto 0;
   text-align: center;
-  color: #f37936;
+  color: #f5a812;
   font-size: 22px;
   line-height: 30px;
   text-transform: uppercase;
@@ -4717,7 +4829,7 @@ footer .desctop-footer-content {
 .corporate-identity-page .corporate-identity-mobile .corporate-identity-title {
   margin: 22px auto 0;
   text-align: center;
-  color: #f37936;
+  color: #e95b4d;
   font-size: 22px;
   line-height: 30px;
   text-transform: uppercase;
@@ -4813,6 +4925,134 @@ footer .desctop-footer-content {
 }
 /* line 2085, ../sass/main_styles.scss */
 .corporate-identity-page .services-page-list li .web-text .sign-title a:hover {
+  border-color: #fff;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* line 2098, ../sass/main_styles.scss */
+.graphic-design-page .graphic-design-img-bg {
+  width: 100%;
+  height: 173px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: url("../images/graphic_design.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2107, ../sass/main_styles.scss */
+.graphic-design-page .graphic-design-desctop {
+  background: rgba(248, 248, 248, 0.9);
+  display: none;
+}
+/* line 2111, ../sass/main_styles.scss */
+.graphic-design-page .photo-ather-content {
+  display: none;
+}
+/* line 2114, ../sass/main_styles.scss */
+.graphic-design-page .graphic-design-mobile {
+  background: rgba(248, 248, 248, 0.9);
+}
+/* line 2116, ../sass/main_styles.scss */
+.graphic-design-page .graphic-design-mobile .graphic-design-title {
+  margin: 22px auto 0;
+  text-align: center;
+  color: #e95b4d;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 2125, ../sass/main_styles.scss */
+.graphic-design-page .graphic-design-mobile .graphic-design-title span {
+  font-weight: 700;
+}
+/* line 2129, ../sass/main_styles.scss */
+.graphic-design-page .graphic-design-mobile .graphic-design-description {
+  margin: 20px auto;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+/* line 2139, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 2141, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li {
+  display: block;
+  width: 100%;
+  border-bottom: 12px solid #fff;
+  /*------------*/
+}
+/* line 2146, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-bg {
+  width: 100%;
+  min-height: 130px;
+  box-sizing: border-box;
+}
+/* line 2152, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-bg {
+  background: url("../images/web-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 2157, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text {
+  background-color: #f37835;
+}
+/* line 2159, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text .serv-title {
+  border-bottom: 2px solid #f37835;
+}
+/* line 2164, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text {
+  text-align: center;
+}
+/* line 2166, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text .serv-title {
+  width: auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2176, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text .serv-title:hover {
+  border-color: #fff;
+}
+/* line 2180, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text .sign-title {
+  margin: 5px auto;
+}
+/* line 2182, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text .sign-title a {
+  width: auto;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 2191, ../sass/main_styles.scss */
+.graphic-design-page .services-page-list li .web-text .sign-title a:hover {
   border-color: #fff;
 }
 
