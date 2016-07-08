@@ -491,8 +491,31 @@
 	        centeredSlides: true,
 	        autoplay: 3500,
 	        speed: 1000,
+	        // watchSlidesProgress: true,
 	        autoplayDisableOnInteraction: false,
-		});
+	        
+			 // onTransitionEnd: function(swiper) { 
+		 	// 	$(".slider-sign").html("<p>" + ("num: %o", swiper.activeIndex) + "</p>") 
+		 	// }
+		 	// onTransitionEnd: function(swiper) { console.log("num: %o", swiper.activeIndex) }
+		})
+		// $(".swiper-portfolio-button-next").click(function(){
+		// 		$(".slider-sign").html("<p>" + (swiper_main_desctop.activeIndex) + "</p>"); 
+		// 	});
     </script>
+   <!--  <script>
+    	var sliders = document.getElementsByClassName('swiper-slide');
+		var length = document.getElementById('sliders-length');
+		length.innerHTML = 1 + '/' + sliders.length;
+
+		for (let i = 0; i <= sliders.length; i++) {
+		  var slider = sliders[i];
+		  
+		  slider.onclick = function() {
+		    length.innerHTML = i + 1 + '/' + sliders.length;
+		  }; 
+		}
+
+    </script> -->
 </body>
 </html>
