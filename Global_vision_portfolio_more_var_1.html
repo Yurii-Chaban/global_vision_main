@@ -485,36 +485,14 @@
 	        nextButton: '.swiper-portfolio-button-next',
 	        prevButton: '.swiper-portfolio-button-prev',
 	        paginationClickable: true,
-	        loop: true,
+	        loop: false,
 	        slidesPerView: 3,
 	        spaceBetween: 30,
 	        centeredSlides: true,
 	        autoplay: 3500,
 	        speed: 1000,
-	        watchSlidesProgress: true,
 	        autoplayDisableOnInteraction: false,
-	        
-			 // onTransitionEnd: function(swiper) { 
-		 	// 	$(".slider-sign").append("<p>" + ("num: %o", swiper.activeIndex) + "</p>") 
-		 	// }
 		});
-		// $(".swiper-portfolio-button-next").click(function(){
-		// 		alert(swiper_main_desctop.activeIndex); 
-		// 	});
     </script>
-    <!-- <script>
-    	var sliders = document.getElementsByClassName('swiper-slide');
-		var length = document.getElementById('sliders-length');
-		length.innerHTML = 1 + '/' + sliders.length;
-
-		for (let i = 0; i <= sliders.length; i++) {
-		  var slider = sliders[i];
-		  
-		  slider.onclick = function() {
-		    length.innerHTML = i + 1 + '/' + sliders.length;
-		  }; 
-		}
-
-    </script> -->
 </body>
 </html>
