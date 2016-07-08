@@ -612,22 +612,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   footer .desctop-footer-content .desctop-footer-list > li .services-list li a:hover {
     color: #fa8d14;
   }
-  /* line 437, ../sass/_media.scss */
-  footer .desctop-footer-content .desctop-footer-list > li .services-list li a.active-services-web {
-    color: #f37835;
-  }
-  /* line 440, ../sass/_media.scss */
-  footer .desctop-footer-content .desctop-footer-list > li .services-list li a.active-services-marketing {
-    color: #26a6a5;
-  }
-  /* line 443, ../sass/_media.scss */
-  footer .desctop-footer-content .desctop-footer-list > li .services-list li a.active-services-software {
-    color: #f5a812;
-  }
-  /* line 446, ../sass/_media.scss */
-  footer .desctop-footer-content .desctop-footer-list > li .services-list li a.active-services-design {
-    color: #e95b4d;
-  }
   /* line 452, ../sass/_media.scss */
   footer .desctop-footer-content .desctop-footer-list > li .info-list li {
     display: block;
@@ -798,7 +782,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-color: #f37835;
   }
   /* line 583, ../sass/_media.scss */
-  .services-section .services-content-list > li .services-web a.active-services {
+  .services-section .services-content-list > li .services-web a.active-services-web {
     border-color: #f37835;
   }
   /* line 588, ../sass/_media.scss */
@@ -817,7 +801,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-color: #26a6a5;
   }
   /* line 598, ../sass/_media.scss */
-  .services-section .services-content-list > li .services-marketing a.active-services {
+  .services-section .services-content-list > li .services-marketing a.active-services-marketing {
     border-color: #26a6a5;
   }
   /* line 603, ../sass/_media.scss */
@@ -836,7 +820,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-color: #f5a812;
   }
   /* line 613, ../sass/_media.scss */
-  .services-section .services-content-list > li .services-software a.active-services {
+  .services-section .services-content-list > li .services-software a.active-services-software {
     border-color: #f5a812;
   }
   /* line 618, ../sass/_media.scss */
@@ -855,7 +839,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-color: #e95b4d;
   }
   /* line 628, ../sass/_media.scss */
-  .services-section .services-content-list > li .services-design a.active-services {
+  .services-section .services-content-list > li .services-design a.active-services-disign {
     border-color: #e95b4d;
   }
 

@@ -434,18 +434,18 @@
 									color: #fa8d14;
 								}
 							}
-							a.active-services-web {
-								color: #f37835;
-							}
-							a.active-services-marketing {
-								color: #26a6a5;
-							}
-							a.active-services-software {
-								color: #f5a812;
-							}
-							a.active-services-design {
-								color: #e95b4d;
-							}
+							// a.active-services-web {
+							// 	color: #f37835;
+							// }
+							// a.active-services-marketing {
+							// 	color: #26a6a5;
+							// }
+							// a.active-services-software {
+							// 	color: #f5a812;
+							// }
+							// a.active-services-design {
+							// 	color: #e95b4d;
+							// }
 						}
 					}
 					.info-list {
@@ -580,7 +580,7 @@
 							border-color: #f37835;
 						}
 					}
-					a.active-services {
+					a.active-services-web {
 						border-color: #f37835;
 					}
 				}
@@ -595,7 +595,7 @@
 							border-color: #26a6a5;
 						}
 					}
-					a.active-services {
+					a.active-services-marketing {
 						border-color: #26a6a5;
 					}
 				}
@@ -610,7 +610,7 @@
 							border-color: #f5a812;
 						}
 					}
-					a.active-services {
+					a.active-services-software {
 						border-color: #f5a812;
 					}
 				}
@@ -625,7 +625,7 @@
 							border-color: #e95b4d;
 						}
 					}
-					a.active-services {
+					a.active-services-disign {
 						border-color: #e95b4d;
 					}
 				}
