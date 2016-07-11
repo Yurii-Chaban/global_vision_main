@@ -53,6 +53,7 @@
  @media only screen and (min-width: 1170px) {
      .cd-headline {
          font-size: 6rem;
+         word-spacing: 15px;
      }
  }
  .cd-words-wrapper {
