@@ -216,7 +216,8 @@ header {
 	background-color: white;
 	box-shadow: 0 -2px 8px rgba(0, 1, 1, 0.11);
 }
-.dropdovn-menu-desctop {
+.dropdovn-menu-desctop,
+.dropdown-menu-desctop-main {
 	display: none;
 }
 .dropdovn-menu-mobile {
@@ -409,27 +410,35 @@ header {
     	display: none;
     }
 
-    .cd-words-wrapper {
-	    display: inline-block;
-	    position: relative;
-	    text-align: left;
-	    max-width: 100%;
-        min-height: 60px;
-	    box-sizing: border-box;
-	    overflow: hidden;
-	    margin: 28px auto 0;
-	    font: 400 22px / 28px 'HelveticaNeueCyr', sans-serif;
-	    text-transform: uppercase;
-	    text-align: center;
-	    color: #fff;
-	    .sign {
-			color: #f98d14;
-		}
-	}
-	.cd-intro {
+	.wrap {
 	    margin: 0 auto 4em;
 	    position: relative;
-    	z-index: 99;
+	    left: 50%;
+	    z-index: 99;
+	    transform: translateX(-50%);
+
+    	.slider_title {
+    		margin: 0 auto;
+			   p {
+				display: inline-block;
+	    		position: relative;
+	    		top: 0;
+				text-align: left;
+				max-width: 100%;
+				min-height: 60px;
+				box-sizing: border-box;
+				overflow: hidden;
+				margin: 28px auto 0;
+				font: 400 22px / 28px 'HelveticaNeueCyr', sans-serif;
+				text-transform: uppercase;
+				text-align: center;
+				color: #fff;
+				span {
+					color: #f98d14;
+				}
+		  	 }
+		}
+
 	    .item-sign {
 	    	display: block;
 			margin: 0 auto;

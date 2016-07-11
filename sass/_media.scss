@@ -29,6 +29,24 @@
 		background: none !important;
 		overflow:hidden;
 	    padding-bottom: 67px !important;
+
+	    .wrap {
+			.slider_title {
+				min-height: 140px;
+				p {
+		           font-size: 64px !important;
+				    color: #fff;
+				    // top: 185px !important;
+				    // letter-spacing: -4.75px !important;
+				    letter-spacing: 0 !important;
+				    // position: absolute !important;
+				    width: 100%;
+				    text-align: center;
+				    margin: 143px 0 33px 1px !important;
+				    line-height: 60px !important;
+		    	}
+			}
+		}
 	
 		.grid {
 			display: block !important;
@@ -53,7 +71,7 @@
 		   overflow:hidden;
 		}
 
-		.cd-intro {
+		.wrap {
 		    .company-services,
 		    .do-button {
 		    	display: block !important;
@@ -65,12 +83,6 @@
 				    padding-left: 10px;
     				word-spacing: 0px;
 		    }
-		}
-		.cd-words-wrapper {
-			min-height: auto !important;
-		    margin: 80px auto 0 !important;
-			font-size: 66px !important;
-			line-height: 70px !important;
 		}
 
 	}
@@ -233,17 +245,19 @@
 		padding: 0 0 20px;
 		background: #000;
 
-		.dropdovn-menu-desctop-black {
-			.burger {
-				display: none;
-			}
+		.dropdown-menu-desctop-black {
+			display: block;
+		    width: auto;
+		    float: right;
+		    overflow: hidden;
+		    box-sizing: border-box;
 
 			.dropdown-content-black {
 				float: right;
-			    margin: 20px auto;
+			    margin: 15px auto 0;
 				li {
 					display: inline-block;
-					margin: 0 15px;
+					margin: 0 8px;
 
 					&:first-child {
 						margin-left: 0;
@@ -252,7 +266,7 @@
 						margin-right: 0;
 					}
 					a {
-						color: white;
+						color: #fff;
 						font: 400 16px / 60px 'Arial', sans-serif;
 						text-decoration: none;
 
@@ -266,6 +280,7 @@
 				}
 			}
 		}
+
 		.wrapper {
 			padding: 0;
 		}
@@ -281,14 +296,31 @@
 	
 	/*---------------------------------------*/
 	.slider {
-		.cd-words-wrapper {
-		    margin: 140px auto 0 !important;
-		}
+		// .cd-words-wrapper {
+		//     margin: 140px auto 0 !important;
+		// }
 
-		.cd-intro {
-		    width: 100%;
-		    max-width: 100%;
-		    text-align: center;
+		// .cd-intro {
+		//     width: 100%;
+		//     max-width: 100%;
+		//     text-align: center;
+		// }
+		.wrap {
+			.slider_title {
+				min-height: 55px;
+		        p {
+		           font-size: 64px !important;
+				    color: #fff;
+				    // top: 185px !important;
+				    // letter-spacing: -4.75px !important;
+				    letter-spacing: 0 !important;
+				    // position: absolute !important;
+				    width: 100%;
+				    text-align: center;
+				    margin: 143px 0 33px 1px !important;
+				    line-height: 60px !important;
+		    	}
+	    	}
 		}
 	}
 	
@@ -336,6 +368,14 @@
 						font-size: 30px;
 						font-weight: 500;
 						line-height: 30px;
+
+						a {
+							color: #fff;
+							text-decoration: none;
+							&:hover {
+								text-decoration: underline;
+							}
+						}
 					}
 					h4 {
 						color: white;
