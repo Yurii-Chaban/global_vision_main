@@ -77,12 +77,12 @@ $(function () {
 
     if (!isMobile.any()) {
 
-        $(function () {
-            var BV = new $.BigVideo();
-            var vids = ['/LODKA.mp4'];
-            BV.init();
-            BV.show(vids, {ambient: true});
-        });
+        // $(function () {
+        //     var BV = new $.BigVideo();
+        //     var vids = ['/LODKA.mp4'];
+        //     BV.init();
+        //     BV.show(vids, {ambient: true});
+        // });
 
         $('body').css("margin", "0");
         $('.block1').css("position", "fixed");
