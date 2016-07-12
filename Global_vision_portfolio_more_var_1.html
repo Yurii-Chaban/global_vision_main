@@ -109,7 +109,9 @@
 			<ul class="services-content-list">
 				<li>
 					<ul class="services-web">
-						<li class="web-title">web</li>
+						<li class="web-title">
+							<a href="Global_vision_Web_Development_page.html">web</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_web_development.html">Web Development</a>
 						</li>
@@ -123,7 +125,9 @@
 				</li>
 				<li>
 					<ul class="services-marketing">
-						<li class="marketing-title">marketing</li>
+						<li class="marketing-title">
+							<a href="Global_vision_Marketing_Development_page.html">marketing</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_Internet_marketing.html">Internet Marketing Consulting</a>
 						</li>
@@ -137,7 +141,9 @@
 				</li>
 				<li>
 					<ul class="services-software">
-						<li class="software-title">software</li>
+						<li class="software-title">
+							<a href="Global_vision_Softvare_Development_page.html">software</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_software_development.html">Software Development</a>
 						</li>
@@ -145,13 +151,15 @@
 							<a href="Global_vision_service_alternative_solutions.html">Alternative Solutions</a>
 						</li>
 						<li>
-							<a href="Global_vision_service_it_outsoursing.html">IT Outsorsing</a>
+							<a href="Global_vision_service_it_outsoursing.html">IT Outsourcing</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<ul class="services-design">
-						<li class="design-title">design</li>
+						<li class="design-title">
+							<a href="Global_vision_Design_Development_page.html">design</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_graphic_design.html">Graphic Design</a>
 						</li>
@@ -224,40 +232,40 @@
 	    	<div id="slider-sign">
 	    		<div class="wrapper">
 	    			<h2 class="slider-title">name of photo</h2>
-	    			<p class='counter'>1 / 10</p>
+	    			<p class='counter'><span id="num_photo">1</span> / <span id="slide_count">10</span></p></p>
 	    		</div>
 	    	</div>
 	        <div class="swiper-wrapper">
 	            <div class="swiper-slide">
-					<img src="images/portfolio/1.jpg" alt="portfolio item">
+					<img src="images/portfolio/1.jpg" alt="portfolio item 1">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/2.jpg" alt="portfolio item">
+					<img src="images/portfolio/2.jpg" alt="portfolio item 2">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/3.jpg" alt="portfolio item">
+					<img src="images/portfolio/3.jpg" alt="portfolio item 3">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/4.jpg" alt="portfolio item">
+					<img src="images/portfolio/4.jpg" alt="portfolio item 4">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/5.jpg" alt="portfolio item">
+					<img src="images/portfolio/5.jpg" alt="portfolio item 5">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/6.jpg" alt="portfolio item">
+					<img src="images/portfolio/6.jpg" alt="portfolio item 6">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/7.jpg" alt="portfolio item">
+					<img src="images/portfolio/7.jpg" alt="portfolio item 7">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/8.jpg" alt="portfolio item">
+					<img src="images/portfolio/8.jpg" alt="portfolio item 8">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/9.jpg" alt="portfolio item">
+					<img src="images/portfolio/9.jpg" alt="portfolio item 9">
 	            </div>
 	            <div class="swiper-slide">
-					<img src="images/portfolio/10.jpg" alt="portfolio item">
-	            </div>
+					<img src="images/portfolio/10.jpg" alt="portfolio item 10">
+	            </div> 
 	        </div>
 	        <!-- Add Arrows -->
 	        <div class="swiper-portfolio-button-next"></div>
@@ -328,16 +336,16 @@
 					<li>
 						<ul class="services-list">
 							<li>
-								<a href="Global_vision_service_web_development.html">Web Development</a>
+								<a href="Global_vision_Web_Development_page.html">Web Development</a>
 							</li>
 							<li>
-								<a href="Global_vision_service_Internet_marketing.html">Internet Marketing</a>
+								<a href="Global_vision_Marketing_Development_page.html">Internet Marketing</a>
 							</li>
 							<li>
-								<a href="Global_vision_service_graphic_design.html">Graphic Design</a>
+								<a href="Global_vision_Design_Development_page.html">Graphic Design</a>
 							</li>
 							<li>
-								<a href="Global_vision_service_software_development.html">Software Development</a>
+								<a href="Global_vision_Softvare_Development_page.html">Software Development</a>
 							</li>
 						</ul>
 					</li>
@@ -471,7 +479,16 @@
 	        speed: 1000,
 	        // watchSlidesProgress: true,
 	        autoplayDisableOnInteraction: false,
-	        
+	        onTransitionEnd: function(swiper) { 
+                var slide_count = $(".swiper-container-design-desctop .swiper-wrapper .swiper-slide").length - 6;
+                $("span#slide_count").html(slide_count);
+                var array_slide = $(".swiper-slide.swiper-slide-active");
+                var num_slide = Number($(array_slide[1]).attr("data-swiper-slide-index")) + 1;
+                $("span#num_photo").html(num_slide);
+                var array_photo_name = $(".swiper-slide.swiper-slide-active img");
+                var name_photo = $(array_photo_name[1]).attr("alt");
+                $(".slider-title").html(name_photo);
+            }
 			 // onTransitionEnd: function(swiper) { 
 		 	// 	$(".slider-sign").html("<p>" + ("num: %o", swiper.activeIndex) + "</p>") 
 		 	// }
@@ -481,19 +498,41 @@
 		// 		$(".slider-sign").html("<p>" + (swiper_main_desctop.activeIndex) + "</p>"); 
 		// 	});
     </script>
-   <!--  <script>
-    	var sliders = document.getElementsByClassName('swiper-slide');
-		var length = document.getElementById('sliders-length');
-		length.innerHTML = 1 + '/' + sliders.length;
-
-		for (let i = 0; i <= sliders.length; i++) {
-		  var slider = sliders[i];
-		  
-		  slider.onclick = function() {
-		    length.innerHTML = i + 1 + '/' + sliders.length;
-		  }; 
-		}
-
-    </script> -->
+    <script>
+		$(function () {
+	        $('.marketing-web .marketing-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.software-web .software-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.description-web .description-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
 </body>
 </html>

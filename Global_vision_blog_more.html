@@ -109,7 +109,9 @@
 			<ul class="services-content-list">
 				<li>
 					<ul class="services-web">
-						<li class="web-title">web</li>
+						<li class="web-title">
+							<a href="Global_vision_Web_Development_page.html">web</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_web_development.html">Web Development</a>
 						</li>
@@ -123,7 +125,9 @@
 				</li>
 				<li>
 					<ul class="services-marketing">
-						<li class="marketing-title">marketing</li>
+						<li class="marketing-title">
+							<a href="Global_vision_Marketing_Development_page.html">marketing</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_Internet_marketing.html">Internet Marketing Consulting</a>
 						</li>
@@ -137,7 +141,9 @@
 				</li>
 				<li>
 					<ul class="services-software">
-						<li class="software-title">software</li>
+						<li class="software-title">
+							<a href="Global_vision_Softvare_Development_page.html">software</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_software_development.html">Software Development</a>
 						</li>
@@ -145,13 +151,15 @@
 							<a href="Global_vision_service_alternative_solutions.html">Alternative Solutions</a>
 						</li>
 						<li>
-							<a href="Global_vision_service_it_outsoursing.html">IT Outsorsing</a>
+							<a href="Global_vision_service_it_outsoursing.html">IT Outsourcing</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<ul class="services-design">
-						<li class="design-title">design</li>
+						<li class="design-title">
+							<a href="Global_vision_Design_Development_page.html">design</a>
+						</li>
 						<li>
 							<a href="Global_vision_service_graphic_design.html">Graphic Design</a>
 						</li>
@@ -295,16 +303,16 @@
 					<li>
 						<ul class="services-list">
 							<li>
-								<a href="Global_vision_service_web_development.html">Web Development</a>
+								<a href="Global_vision_Web_Development_page.html">Web Development</a>
 							</li>
 							<li>
-								<a href="Global_vision_service_Internet_marketing.html">Internet Marketing</a>
+								<a href="Global_vision_Marketing_Development_page.html">Internet Marketing</a>
 							</li>
 							<li>
-								<a href="Global_vision_service_graphic_design.html">Graphic Design</a>
+								<a href="Global_vision_Design_Development_page.html">Graphic Design</a>
 							</li>
 							<li>
-								<a href="Global_vision_service_software_development.html">Software Development</a>
+								<a href="Global_vision_Softvare_Development_page.html">Software Development</a>
 							</li>
 						</ul>
 					</li>
@@ -424,5 +432,53 @@
 	        autoplayDisableOnInteraction: false
 	    });
     </script>
+    <script>
+		$(function () {
+	        $('.services-web .web-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.marketing-web .marketing-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.software-web .software-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.description-web .description-title a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('serices-actived');
+	            }
+	        });
+	    });
+	</script>
 </body>
 </html>

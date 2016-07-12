@@ -334,6 +334,9 @@ header {
   	height: auto;
   }
 }
+.dropdown-menu-desctop-black {
+	display: none;
+}
 .header-info {
   display: none;
 }
@@ -2980,4 +2983,492 @@ footer {
 		}
 	}
 }
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+.services-page-development {
+	@include site-container;
+	.content-services-development {
+		background: rgba(248,248,248, 0.9);
+		padding: 37px 0 17px 26px;
+		.title-services-main {
+			display: none;
+			margin: 0 auto;
+			text-align: center;
+			color: black;
+			font-size: 42px;
+			font-weight: 400;
+			line-height: 60px;
+			text-transform: uppercase;
+		}
+		.description-services-main {
+			margin: 20px auto;
+			color: #5d5d5d;
+			font: 400 18px / 25px 'HelveticaNeueCyr', sans-serif;
+		}
+	}
+	.page-list-services-desctop {
+		display: none;
+	}
+	.page-list-services-mobile {
+		@include site-container;
+		margin: 12px auto 0;
+		&>li {
+		    display: block;
+		    width: 100%;
+			
+			.software,
+			.it,
+			.solution {
+				width: 100%;
+				// padding: 20px 0;
+				height: 137px;
+				box-sizing: border-box;
+				background-size: cover !important;
+				background-position: center center !important;
+			}
+			.software {
+				background: url('../images/soft-devel-mobile.png') no-repeat;
+			}
+			.it {
+				background: url('../images/it-mobile.png') no-repeat;
+			}
+			.solution {
+				background: url('../images/altern-sol-mobile.png') no-repeat;
+			}
+
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				background-color: #f37835;
+				.serv-title {
+					color: #fff;
+					&:hover {
+						border-color: #fff;
+					}
+				}
+				.serv-descr {
+					margin-top: 15px;
+					color: #fff;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 22px;
+				}
+				.sign-title {
+					li {
+						a {
+							color: #f37835;
+						}
+					}
+				}
+			}
+			/*------------*/
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				width: 100%;
+				padding: 20px 0 12px;
+				text-align: center;
+				// background: rgba(245,168,33, 0.8);
+				background-color: #f5a812;
+				.serv-title {
+					width: auto;
+					font-size: 25px;
+					font-weight: 700;
+					line-height: 45px;
+					text-transform: uppercase;
+					text-decoration: none;
+					border-bottom: 2px solid rgba(248,248,248,0);					
+					@include transition;
+					
+				}
+				.sign-title {
+					width: 100%;
+					margin: 5px auto;
+					box-sizing: border-box;
+
+					li {
+						a {
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 49px;
+							text-decoration: none;
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+.web-services-page-development {
+	@include site-container;
+	.content-services-development {
+		background: rgba(248,248,248, 0.9);
+		padding: 37px 0 17px 26px;
+		.title-services-main {
+			display: none;
+			margin: 0 auto;
+			text-align: center;
+			color: black;
+			font-size: 42px;
+			font-weight: 400;
+			line-height: 60px;
+			text-transform: uppercase;
+		}
+		.description-services-main {
+			margin: 20px auto;
+			color: #5d5d5d;
+			font: 400 18px / 25px 'HelveticaNeueCyr', sans-serif;
+		}
+	}
+	.page-list-services-desctop {
+		display: none;
+	}
+	.page-list-services-mobile {
+		@include site-container;
+		margin: 12px auto 0;
+		&>li {
+		    display: block;
+		    width: 100%;
+			
+			.software,
+			.it,
+			.solution {
+				width: 100%;
+				// padding: 20px 0;
+				height: 137px;
+				box-sizing: border-box;
+				background-size: cover !important;
+				background-position: center center !important;
+			}
+			.software {
+				background: url('../images/soft-devel-mobile.png') no-repeat;
+			}
+			.it {
+				background: url('../images/it-mobile.png') no-repeat;
+			}
+			.solution {
+				background: url('../images/altern-sol-mobile.png') no-repeat;
+			}
+
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				background-color: #f37835;
+				.serv-title {
+					color: #fff;
+					&:hover {
+						border-color: #fff;
+					}
+				}
+				.serv-descr {
+					margin-top: 15px;
+					color: #fff;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 22px;
+				}
+				.sign-title {
+					li {
+						a {
+							color: #f37835;
+						}
+					}
+				}
+			}
+			/*------------*/
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				width: 100%;
+				padding: 20px 0 12px;
+				text-align: center;
+				// background: rgba(245,168,33, 0.8);
+				background-color: #f37835;
+				.serv-title {
+					width: auto;
+					font-size: 25px;
+					font-weight: 700;
+					line-height: 45px;
+					text-transform: uppercase;
+					text-decoration: none;
+					border-bottom: 2px solid rgba(248,248,248,0);					
+					@include transition;
+					
+				}
+				.sign-title {
+					width: 100%;
+					margin: 5px auto;
+					box-sizing: border-box;
+
+					li {
+						a {
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 49px;
+							text-decoration: none;
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+.marketing-services-page-development {
+	@include site-container;
+	.content-services-development {
+		background: rgba(248,248,248, 0.9);
+		padding: 37px 0 17px 26px;
+		.title-services-main {
+			display: none;
+			margin: 0 auto;
+			text-align: center;
+			color: black;
+			font-size: 42px;
+			font-weight: 400;
+			line-height: 60px;
+			text-transform: uppercase;
+		}
+		.description-services-main {
+			margin: 20px auto;
+			color: #5d5d5d;
+			font: 400 18px / 25px 'HelveticaNeueCyr', sans-serif;
+		}
+	}
+	.page-list-services-desctop {
+		display: none;
+	}
+	.page-list-services-mobile {
+		@include site-container;
+		margin: 12px auto 0;
+		&>li {
+		    display: block;
+		    width: 100%;
+			
+			.software,
+			.it,
+			.solution {
+				width: 100%;
+				// padding: 20px 0;
+				height: 137px;
+				box-sizing: border-box;
+				background-size: cover !important;
+				background-position: center center !important;
+			}
+			.software {
+				background: url('../images/soft-devel-mobile.png') no-repeat;
+			}
+			.it {
+				background: url('../images/it-mobile.png') no-repeat;
+			}
+			.solution {
+				background: url('../images/altern-sol-mobile.png') no-repeat;
+			}
+
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				background-color: #26a6a5;
+				.serv-title {
+					color: #fff;
+					&:hover {
+						border-color: #fff;
+					}
+				}
+				.serv-descr {
+					margin-top: 15px;
+					color: #fff;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 22px;
+				}
+				.sign-title {
+					li {
+						a {
+							color: #26a6a5;
+						}
+					}
+				}
+			}
+			/*------------*/
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				width: 100%;
+				padding: 20px 0 12px;
+				text-align: center;
+				// background: rgba(245,168,33, 0.8);
+				background-color: #26a6a5;
+				.serv-title {
+					width: auto;
+					font-size: 25px;
+					font-weight: 700;
+					line-height: 45px;
+					text-transform: uppercase;
+					text-decoration: none;
+					border-bottom: 2px solid rgba(248,248,248,0);					
+					@include transition;
+					
+				}
+				.sign-title {
+					width: 100%;
+					margin: 5px auto;
+					box-sizing: border-box;
+
+					li {
+						a {
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 49px;
+							text-decoration: none;
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+.design-services-page-development {
+	@include site-container;
+	.content-services-development {
+		background: rgba(248,248,248, 0.9);
+		padding: 37px 0 17px 26px;
+		.title-services-main {
+			display: none;
+			margin: 0 auto;
+			text-align: center;
+			color: black;
+			font-size: 42px;
+			font-weight: 400;
+			line-height: 60px;
+			text-transform: uppercase;
+		}
+		.description-services-main {
+			margin: 20px auto;
+			color: #5d5d5d;
+			font: 400 18px / 25px 'HelveticaNeueCyr', sans-serif;
+		}
+	}
+	.page-list-services-desctop {
+		display: none;
+	}
+	.page-list-services-mobile {
+		@include site-container;
+		margin: 12px auto 0;
+		&>li {
+		    display: block;
+		    width: 100%;
+			
+			.software,
+			.it,
+			.solution {
+				width: 100%;
+				// padding: 20px 0;
+				height: 137px;
+				box-sizing: border-box;
+				background-size: cover !important;
+				background-position: center center !important;
+			}
+			.software {
+				background: url('../images/soft-devel-mobile.png') no-repeat;
+			}
+			.it {
+				background: url('../images/it-mobile.png') no-repeat;
+			}
+			.solution {
+				background: url('../images/altern-sol-mobile.png') no-repeat;
+			}
+
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				background-color: #e95b4d;
+				.serv-title {
+					color: #fff;
+					&:hover {
+						border-color: #fff;
+					}
+				}
+				.serv-descr {
+					margin-top: 15px;
+					color: #fff;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 22px;
+				}
+				.sign-title {
+					li {
+						a {
+							color: #e95b4d;
+						}
+					}
+				}
+			}
+			/*------------*/
+			.software-main-text,
+			.it-main-text,
+			.solution-main-text {
+				width: 100%;
+				padding: 20px 0 12px;
+				text-align: center;
+				// background: rgba(245,168,33, 0.8);
+				background-color: #e95b4d;
+				.serv-title {
+					width: auto;
+					font-size: 25px;
+					font-weight: 700;
+					line-height: 45px;
+					text-transform: uppercase;
+					text-decoration: none;
+					border-bottom: 2px solid rgba(248,248,248,0);					
+					@include transition;
+					
+				}
+				.sign-title {
+					width: 100%;
+					margin: 5px auto;
+					box-sizing: border-box;
+
+					li {
+						a {
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 49px;
+							text-decoration: none;
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---------------------------------------*/
 /*---------------------------------------*/
