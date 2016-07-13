@@ -1370,6 +1370,7 @@ footer {
 /*---------------------------------------*/
 .design-page {
 	@include site-container;
+	overflow: hidden;
 
 	.blog-content {
 		.blog-title {
@@ -3150,13 +3151,13 @@ footer {
 				background-position: center center !important;
 			}
 			.software {
-				background: url('../images/soft-devel-mobile.png') no-repeat;
+				background: url('../images/web/web_development.jpg') no-repeat;
 			}
 			.it {
-				background: url('../images/it-mobile.png') no-repeat;
+				background: url('../images/web/web_support.jpg') no-repeat;
 			}
 			.solution {
-				background: url('../images/altern-sol-mobile.png') no-repeat;
+				background: url('../images/web/ready-to-go.jpg') no-repeat;
 			}
 
 			.software-main-text,
@@ -3272,13 +3273,13 @@ footer {
 				background-position: center center !important;
 			}
 			.software {
-				background: url('../images/soft-devel-mobile.png') no-repeat;
+				background: url('../images/marketing/intern_market_consulting.jpg') no-repeat;
 			}
 			.it {
-				background: url('../images/it-mobile.png') no-repeat;
+				background: url('../images/marketing/seo.jpg') no-repeat;
 			}
 			.solution {
-				background: url('../images/altern-sol-mobile.png') no-repeat;
+				background: url('../images/marketing/pay-per.jpg') no-repeat;
 			}
 
 			.software-main-text,
@@ -3394,13 +3395,19 @@ footer {
 				background-position: center center !important;
 			}
 			.software {
-				background: url('../images/soft-devel-mobile.png') no-repeat;
+				background: url('../images/design/corporate_identity.jpg') no-repeat;
+				background-size: cover;
+				page-pagination: center center;
 			}
 			.it {
-				background: url('../images/it-mobile.png') no-repeat;
+				background: url('../images/design/graphic_design.jpg') no-repeat;
+				background-size: cover;
+				page-pagination: center center;
 			}
 			.solution {
-				background: url('../images/altern-sol-mobile.png') no-repeat;
+				background: url('../images/design/photography.jpg') no-repeat;
+				background-size: cover;
+				page-pagination: center center;
 			}
 
 			.software-main-text,
