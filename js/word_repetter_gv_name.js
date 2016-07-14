@@ -117,24 +117,24 @@ $(function () {
                 }
             }
 
-            if (isMobile.any()) {
-                if (mob_scroll == 0 && $(window).scrollTop() > 120) {
+            // if (isMobile.any()) {
+            //     if (mob_scroll == 0 && $(window).scrollTop() > 120) {
 
-                    mob_scroll = 1;
-                }
-                if ($(window).scrollTop() > 120) {
-                }
-                $('.block2').css("position", "absolute");
-            }
+            //         mob_scroll = 1;
+            //     }
+            //     if ($(window).scrollTop() > 120) {
+            //     }
+            //     $('.block2').css("position", "absolute");
+            // }
         }
     });
 
-    if (isMobile.any()) {
-        if (mob_scroll == 0 && $(window).scrollTop() > 120) {
-            mob_scroll = 1;
-        }
+    // if (isMobile.any()) {
+    //     if (mob_scroll == 0 && $(window).scrollTop() > 120) {
+    //         mob_scroll = 1;
+    //     }
 
-    }
+    // }
 
 
 });

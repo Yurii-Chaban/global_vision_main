@@ -32,7 +32,7 @@
 				</label>
 				<ul class="hidden-menu">
 	                <li>
-	                	<a href="index.html">Home</a>
+	                	<a class="active" href="index.html">Home</a>
 	                </li>
 	                <li>
 	                	<a href="Global_vision_about_us.html">About Us</a>
@@ -75,7 +75,7 @@
 	        <div class="dropdown-menu-desctop-main">
 	            <ul class="dropdown-content-main">
 	                <li>
-	                	<a href="index.html">Home</a>
+	                	<a href="index.html" style="text-decoration: underline;">Home</a>
 	                </li>
 	                <li>
 	                	<a href="Global_vision_about_us.html">About Us</a>
@@ -131,7 +131,9 @@
 	<section class="site-container photo-web">
 		<div class="block-container">
 			<div class="wrapper">
-				<h2 class="services-title">web</h2>
+				<h2 class="services-title">
+					<a href="Global_vision_Web_Development_page.html">web</a>
+				</h2>
 				<ul class="web-list">
 					<li>
 						<h3>
@@ -154,11 +156,14 @@
 				</ul>
 			</div>
 		</div>
+		<a class="position" href="Global_vision_Web_Development_page.html"></a>
 	</section>
 	<section class="site-container photo-marketing">
 		<div class="block-container">
 			<div class="wrapper">
-				<h2 class="services-title">marketing</h2>
+				<h2 class="services-title">
+					<a href="Global_vision_Marketing_Development_page.html">marketing</a>
+				</h2>
 				<ul class="marketing-list">
 					<li>
 						<h3>
@@ -181,11 +186,14 @@
 				</ul>
 			</div>
 			</div>
+			<a class="position" href="Global_vision_Marketing_Development_page.html"></a>
 	</section>
 	<section class="site-container photo-design">
 		<div class="block-container">
 			<div class="wrapper">
-				<h2 class="services-title">design</h2>
+				<h2 class="services-title">
+					<a href="Global_vision_Design_Development_page.html">design</a>
+				</h2>
 				<ul class="design-list">
 					<li>
 						<h3>
@@ -212,11 +220,14 @@
 				</ul>
 			</div>
 			</div>
+			<a class="position" href="Global_vision_Design_Development_page.html"></a>
 	</section>
 	<section class="site-container photo-software">
 		<div class="block-container">
 			<div class="wrapper">
-				<h2 class="services-title">software</h2>
+				<h2 class="services-title">
+					<a href="Global_vision_Softvare_Development_page.html">software</a>
+				</h2>
 				<ul class="software-list">
 					<li>
 						<h3>
@@ -243,6 +254,7 @@
 				</ul>
 			</div>
 			</div>
+			<a class="position" href="Global_vision_Softvare_Development_page.html"></a>
 	</section>
 	<section class="site-container who-we-are">
 		<div class="wrapper">
@@ -451,109 +463,6 @@
 	<script src="js/wow.js"></script>
 	<script src="js/word_repetter_gv_name.js"></script>
 	<script src="js/swiper.js"></script>
-    <script>
-		$(document).ready(
-		    function() {
-		        $(".burger").click(function() {
-		            $(".dropdown-content").fadeToggle();
-	            });
-		    });
-	</script>
-	<script>
-		 $(function () {
-	        $('.hidden-menu li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('active');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.dropdown-content li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('dropdown-active');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.services-list li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('active-services');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.dropdown-content-main li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('main-active');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.services-web .web-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.marketing-web .marketing-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.software-web .software-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.description-web .description-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
+    <script src="js/main.js"></script>
 </body>
 </html>

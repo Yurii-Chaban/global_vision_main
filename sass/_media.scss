@@ -343,6 +343,10 @@
 		// background-attachment: fixed !important;
 		border: none !important;
 
+		.position {
+			display: none;
+		}
+
 		.wrapper {
 			// width: 400px !important;
 
@@ -718,9 +722,9 @@
 							line-height: 52px;
 							text-transform: uppercase;
 						}
-						a.serices-actived {
-							text-decoration: underline;
-						}
+						// a.serices-actived {
+						// 	text-decoration: underline;
+						// }
 						&:before {
 							position: absolute;
 							bottom: 0;
@@ -739,6 +743,9 @@
 						border-bottom: 1px solid #fff;
 						@include transition;
 					}
+					// a.serices-actived {
+					// 	text-decoration: underline;
+					// }
 				}
 				.services-web {
 					.web-title,
@@ -752,6 +759,9 @@
 						}
 					}
 					a.active-services-web {
+						border-color: #f37835;
+					}
+					a.serices-actived {
 						border-color: #f37835;
 					}
 				}
@@ -769,6 +779,9 @@
 					a.active-services-marketing {
 						border-color: #26a6a5;
 					}
+					a.serices-actived {
+						border-color: #26a6a5;
+					}
 				}
 				.services-software {
 					.software-title,
@@ -784,6 +797,9 @@
 					a.active-services-software {
 						border-color: #f5a812;
 					}
+					a.serices-actived {
+						border-color: #f5a812;
+					}
 				}
 				.services-design {
 					.design-title,
@@ -797,6 +813,9 @@
 						}
 					}
 					a.active-services-disign {
+						border-color: #e95b4d;
+					}
+					a.serices-actived {
 						border-color: #e95b4d;
 					}
 				}

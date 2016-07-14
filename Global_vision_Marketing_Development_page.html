@@ -95,7 +95,7 @@
 	</header>
 	<section class="direction">
 		<div class="wrapper">
-			<a class="arrow-back" href="#">
+			<a class="arrow-back" href="javascript:history.back()">
 				<img src="images/arrow.png" alt="arrow back">
 			</a>
 			<h3 class="direction-title">
@@ -355,109 +355,6 @@
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/swiper.js"></script>
-    <script>
-		$(document).ready(
-		    function() {
-		        $(".burger").click(function() {
-		            $(".dropdown-content").fadeToggle();
-	            });
-		    });
-	</script>
-	<script>
-		 $(function () {
-	        $('.hidden-menu li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('active');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.dropdown-content li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('dropdown-active');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.footer-menu li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('active-footer');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.services-list li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('active-services');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.dropdown-content-black li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('black-active');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.marketing-web .marketing-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.software-web .software-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.description-web .description-title a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('serices-actived');
-	            }
-	        });
-	    });
-	</script>
+    <script src="js/main.js"></script>
 </body>
 </html>
